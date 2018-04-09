@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:81:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/index\view\user\login.html";i:1498759676;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:81:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/index\view\user\login.html";i:1523243088;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,7 +22,7 @@
             </ul>
             <div class="login-link">
                 <span>还没o2o团购网帐号</span>
-                <a href="register.html">注册</a>
+                <a href="<?php echo url('user/register'); ?>">注册</a>
             </div>
         </div>
 
@@ -32,12 +32,12 @@
                 <div class="login-area">
                     <div class="title">登录</div>
                     <div class="login">
-                        <form>
+                        <form method="post" action="<?php echo url('user/check'); ?>">
                             <div class="ordinaryLogin">
                                 
                                 <p class="pass-form-item">
                                     <label class="pass-label">用户名</label>
-                                    <input type="text" name="userName" class="pass-text-input" placeholder="用户名">
+                                    <input type="text" name="username" class="pass-text-input" placeholder="用户名">
                                 </p>
                                 <p class="pass-form-item">
                                     <label class="pass-label">密码</label>

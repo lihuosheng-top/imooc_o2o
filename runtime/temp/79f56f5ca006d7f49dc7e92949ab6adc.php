@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:85:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\category\index.html";i:1523267818;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\header.html";i:1523258522;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\footer.html";i:1523156739;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:85:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\category\index.html";i:1523268094;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\header.html";i:1523258522;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\footer.html";i:1523156739;}*/ ?>
 <!--包含头部文件-->
 <!DOCTYPE HTML>
 <html>
@@ -60,8 +60,14 @@
 						<input name="" type="checkbox" value="<?php echo $vo['listorder']; ?>" size="5">
 					</td>
 					<td><?php echo $vo['create_time']; ?></td>
-					<td class="td-status"><a href="<?php echo url('category/status',['status'=>($vo['status']==1?0:1),'id'=>$vo['id']]); ?>" title="点击修改状态"><?php echo status($vo['status']); ?></a></td>
-					<td class="td-manage"><a href="<?php echo url('Category/index',['parent_id'=>$vo['id']]); ?>">获取子栏目</a><a style="text-decoration:none" class="ml-5" onClick="o2o_s_edit('编辑','<?php echo url("","",true,false);?>','',300)" href="javascript:;" title="编辑"><i class="Hui-iconfont">&#xe6df;</i></a> <a style="text-decoration:none" class="ml-5" onClick="o2o_del('','<?php echo url('category/status',['id'=>$vo['id'],'status'=> -1]); ?>')" href="javascript:;" title="删除"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+					<td class="td-status">
+						<a href="<?php echo url('category/status',['status'=>($vo['status']==1?0:1),'id'=>$vo['id']]); ?>" title="点击修改状态"><?php echo status($vo['status']); ?></a>
+					</td>
+					<td class="td-manage">
+						<a href="<?php echo url('Category/index',['parent_id'=>$vo['id']]); ?>">获取子栏目</a>
+						<a style="text-decoration:none" class="ml-5" onClick="o2o_s_edit('编辑','<?php echo url("","",true,false);?>','',300)" href="javascript:;" title="编辑"><i class="Hui-iconfont">&#xe6df;</i></a>
+						<a style="text-decoration:none" class="ml-5" onClick="o2o_del('','<?php echo url('category/status',['id'=>$vo['id'],'status'=> -1]); ?>')" href="javascript:;" title="删除"><i class="Hui-iconfont">&#xe6e2;</i></a>
+					</td>
 				</tr>
 			<?php endforeach; endif; else: echo "" ;endif; ?>
 				

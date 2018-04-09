@@ -24,5 +24,27 @@ class Category extends Controller
             ]);
     }
 
+    public function status()
+    {
+        //获取参数
+        $data =input();
+        //校验
+        $validate = validate('Category');
+        $res = $validate->scene('status')->check($data);
+        if(!$res)
+        {
+            $this->error($validate->getError());
+        }
+
+        //进入数据库修改状态
+        $result = $this->obj->save(['status'=>$data['status']],['id'=>$data['id']]);
+
+        if(!$result){
+            $this->error('状态更新失败');
+        }
+
+        $this->success('状态更新成功');
+    }
+
 
 }

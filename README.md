@@ -9,6 +9,12 @@
     'view_replace_str'       => [
 //        '__STATIC__' => '/static',
     ],
+    
+    
+    2]用户
+        （1）用户登录界面
+        （2）用户注册界面
+      
 ## 后台模块 admin
 
 

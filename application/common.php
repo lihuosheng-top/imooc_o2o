@@ -31,3 +31,34 @@ function get_client_ip($type = 0)
     return $ip[$type];
 
 }
+
+//状态映射（前端界面用到的$vo.status |status方法）
+
+function status($status)
+{
+    if($status == 1)
+    {
+        return "<label class='label label-success radius'>正常</label>";
+    }else if ($status == 0) {
+        return "<label class='label label-danger radius'>待审核</label>";
+    }else if($status == -1) {
+        return "<label class='label label-danger radius'>删除</label>";
+    }else if ($status == 2) {
+        return "<label class='label label-danger radius'>未通过</label>";
+    }
+}
+
+
+
+//设置分页方法
+function pagination($pageObj)
+{
+    if(!$pageObj)
+    {
+        return '';
+    }
+    $result = "<div class='cl pd-5 bg-1 bk-gray mt-20 tp5-o2o'>" .$pageObj->render() ."</div>";
+
+    return $result;
+
+}

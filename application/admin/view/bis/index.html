@@ -25,7 +25,7 @@
 					<td class="text-c">{$vo.faren}</td>
 					<td class="text-c">{$vo.faren_tel}</td>
 					<td>{$vo.create_time}</td>
-					<td class="td-status">{$vo.status}</td>
+					<td class="td-status">{$vo.status | status}</td>
 					<td class="td-manage">
 						<a style="text-decoration:none" class="ml-5" onClick="o2o_edit('编辑','{:url('bis/detail',['id'=>$vo.id])}','',600)" href="javascript:;" title="编辑">查看</a>
 						<a style="text-decoration:none" class="ml-5" onClick="o2o_edit('{:url('bis/status',['id'=>$vo.id, 'status'=>-1])}')" href="javascript:;" title="删除">删除</a>
@@ -36,6 +36,7 @@
 			</tbody>
 		</table>
 	</div>
+	{:pagination($bis)}
 
 </div>
 <!--包含头部文件-->

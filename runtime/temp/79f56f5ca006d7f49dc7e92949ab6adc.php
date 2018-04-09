@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:85:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\category\index.html";i:1498759676;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\header.html";i:1498759676;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\footer.html";i:1523156739;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:85:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\category\index.html";i:1523267818;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\header.html";i:1523258522;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\footer.html";i:1523156739;}*/ ?>
 <!--包含头部文件-->
 <!DOCTYPE HTML>
 <html>
@@ -16,6 +16,9 @@
 <script type="text/javascript" src="lib/PIE_IE678.js"></script>
 <![endif]-->
 <link rel="stylesheet" type="text/css" href="__STATIC__/admin/hui/static/h-ui/css/H-ui.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="__STATIC__/admin/css/common.css" />
+    <link rel="stylesheet" type="text/css" href="__STATIC__/admin/uploadify/uploadify.css" />
 <link rel="stylesheet" type="text/css" href="__STATIC__/admin/hui/static/h-ui.admin/css/H-ui.admin.css" />
 <link rel="stylesheet" type="text/css" href="__STATIC__/admin/hui/lib/Hui-iconfont/1.0.7/iconfont.css" />
 <link rel="stylesheet" type="text/css" href="__STATIC__/admin/hui/lib/icheck/icheck.css" />
@@ -33,7 +36,7 @@
 <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 分类管理 <span class="c-gray en">&gt;</span> 分类列表 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
 <div class="page-container">
 	
-	<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"> <a class="btn btn-primary radius" onclick="o2o_s_edit('添加生活服务分类','<?php echo url('category/add'); ?>','','300')" href="javascript:;"><i class="Hui-iconfont">&#xe600;</i> 添加分类</a></span> <span class="r"></span> </div>
+	<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"> <a class="btn btn-primary radius" onclick="o2o_s_edit('添加生活服务分类','','','300')" href="javascript:;"><i class="Hui-iconfont">&#xe600;</i> 添加分类</a></span> <span class="r"></span> </div>
 	<div class="mt-20">
 		<table class="table table-border table-bordered table-bg table-hover table-sort">
 			<thead>
@@ -48,16 +51,19 @@
 				</tr>
 			</thead>
 			<tbody>
-				
+				<?php if(is_array($categories) || $categories instanceof \think\Collection || $categories instanceof \think\Paginator): $i = 0; $__LIST__ = $categories;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
 				<tr class="text-c">
 					<td><input name="" type="checkbox" value=""></td>
-					<td></td>
-					<td></td>
-					<td class="text-c"></td>
-					<td></td>
-					<td class="td-status"><a href="" title="点击修改状态"></a></td>
-					<td class="td-manage"><a href="">获取子栏目</a><a style="text-decoration:none" class="ml-5" onClick="o2o_s_edit('编辑','','',300)" href="javascript:;" title="编辑"><i class="Hui-iconfont">&#xe6df;</i></a> <a style="text-decoration:none" class="ml-5" onClick="o2o_del('','')" href="javascript:;" title="删除"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+					<td><?php echo $vo['id']; ?></td>
+					<td><?php echo $vo['name']; ?></td>
+					<td class="text-c listorder">
+						<input name="" type="checkbox" value="<?php echo $vo['listorder']; ?>" size="5">
+					</td>
+					<td><?php echo $vo['create_time']; ?></td>
+					<td class="td-status"><a href="<?php echo url('category/status',['status'=>($vo['status']==1?0:1),'id'=>$vo['id']]); ?>" title="点击修改状态"><?php echo status($vo['status']); ?></a></td>
+					<td class="td-manage"><a href="<?php echo url('Category/index',['parent_id'=>$vo['id']]); ?>">获取子栏目</a><a style="text-decoration:none" class="ml-5" onClick="o2o_s_edit('编辑','<?php echo url("","",true,false);?>','',300)" href="javascript:;" title="编辑"><i class="Hui-iconfont">&#xe6df;</i></a> <a style="text-decoration:none" class="ml-5" onClick="o2o_del('','<?php echo url('category/status',['id'=>$vo['id'],'status'=> -1]); ?>')" href="javascript:;" title="删除"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
 				</tr>
+			<?php endforeach; endif; else: echo "" ;endif; ?>
 				
 			</tbody>
 		</table>
@@ -75,5 +81,27 @@
 <script type="text/javascript" src="__STATIC__/admin/js/common.js"></script>
 <script type="text/javascript" src="__STATIC__/admin/uploadify/jquery.uploadify.min.js"></script>
 <script type="text/javascript" src="__STATIC__/admin/js/image.js"></script>
-</body>
-</html>
+<script>
+/*页面 全屏-添加*/
+function o2o_edit(title,url){
+	var index = layer.open({
+		type: 2,
+		title: title,
+		content: url
+	});
+	layer.full(index);
+}
+
+/*添加或者编辑缩小的屏幕*/
+function o2o_s_edit(title,url,w,h){
+	layer_show(title,url,w,h);
+}
+/*-删除*/
+function o2o_del(id,url){
+	
+	layer.confirm('确认要删除吗？',function(index){
+		window.location.href=url;
+	});
+}
+
+</script>

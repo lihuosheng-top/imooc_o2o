@@ -14,36 +14,15 @@ class Category extends Controller
     
     public function index()
     {
-        return $this->fetch();
+        //获取parent_id 接受来自子栏目的id
+        $parent_id = input('parent_id',0,'intval');
+        //通过子model获取数据
+        $data = $this->obj->getFirstNormalCategories($parent_id);
+        return $this->fetch(
+            '',[
+                'categories'=>$data
+            ]);
     }
 
-    public function add() {
-        // 获取分类数据
-        $categorys = $this->obj->getNormalFirstCategory();
-        // 将分类数据传递给模板(第1个参数是默认方法对应的模板，第2个参数是模板使用的数据)
-        return $this->fetch('', [
-            'categorys' => $categorys, 
-        ]);
-    }
 
-    public function save() {
-        // 获取数据表单数据的几种形式
-        //print_r($_POST);  // 方法一：原生方式
-        //print_r(input('post.'));  // 方法二：推荐
-        //print_r(request()->post());  // 方法三：推荐
-        $data = input('post.');
-        $validate = validate('Category');
-        //if (!$validate->check($data)) {
-        if (!$validate->scene('add')->check($data)) {
-            $this->error($validate->getError());     
-        }
-
-        // 把$data提交给model层
-        $res = $this->obj->add($data);
-        if ($res) {
-            $this->success('新增成功');
-        } else {
-            $this->error('新增失败');
-        }
-    }
 }

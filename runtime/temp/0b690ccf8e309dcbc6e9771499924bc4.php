@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\dellist.html";i:1505305960;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\header.html";i:1498759676;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\footer.html";i:1523156739;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\dellist.html";i:1523259982;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\header.html";i:1523258522;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\footer.html";i:1523156739;}*/ ?>
 <!--包含头部文件-->
 <!DOCTYPE HTML>
 <html>
@@ -16,6 +16,9 @@
 <script type="text/javascript" src="lib/PIE_IE678.js"></script>
 <![endif]-->
 <link rel="stylesheet" type="text/css" href="__STATIC__/admin/hui/static/h-ui/css/H-ui.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="__STATIC__/admin/css/common.css" />
+    <link rel="stylesheet" type="text/css" href="__STATIC__/admin/uploadify/uploadify.css" />
 <link rel="stylesheet" type="text/css" href="__STATIC__/admin/hui/static/h-ui.admin/css/H-ui.admin.css" />
 <link rel="stylesheet" type="text/css" href="__STATIC__/admin/hui/lib/Hui-iconfont/1.0.7/iconfont.css" />
 <link rel="stylesheet" type="text/css" href="__STATIC__/admin/hui/lib/icheck/icheck.css" />
@@ -48,16 +51,18 @@
 				</tr>
 			</thead>
 			<tbody>
-				
+				<?php if(is_array($bis) || $bis instanceof \think\Collection || $bis instanceof \think\Paginator): $i = 0; $__LIST__ = $bis;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
 				<tr class="text-c">
-					<td></td>
-					<td></td>
-					<td class="text-c"></td>
-					<td class="text-c"></td>
-					<td></td>
-					<td class="td-status"><a href="" title="点击修改状态"></a></td>
+					<td><?php echo $vo['id']; ?></td>
+					<td><?php echo $vo['name']; ?></td>
+					<td class="text-c"><?php echo $vo['faren']; ?></td>
+					<td class="text-c"><?php echo $vo['faren_tel']; ?></td>
+					<td><?php echo $vo['create_time']; ?></td>
+
+					<td class="td-status"><?php echo status($vo['status'] ); ?></td>
 					<td class="td-manage"> <a style="text-decoration:none" class="ml-5" onClick="" href="javascript:;" title="删除"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
 				</tr>
+			<?php endforeach; endif; else: echo "" ;endif; ?>
 				
 			</tbody>
 		</table>

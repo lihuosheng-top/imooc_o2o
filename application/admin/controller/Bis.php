@@ -33,12 +33,23 @@ class Bis extends Controller{
 
     public function apply()
     {
-        return $this->fetch();
+        $res =$this->obj->getBisByStatus(0);
+        return $this->fetch('',[
+           'bis' =>$res
+        ]);
+
     }
 
+    /**
+     * @return mixed
+     * 编辑
+     */
     public function dellist()
     {
-        return $this->fetch();
+        $res =$this->obj->getBisByStatus(-1);
+        return $this->fetch('',[
+            'bis'=>$res
+        ]);
     }
 
     //修改状态的方法(点击能进行编辑状态)

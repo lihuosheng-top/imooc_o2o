@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:80:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\index.html";i:1523258291;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\header.html";i:1523258522;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\footer.html";i:1523156739;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:80:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\index.html";i:1523262424;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\header.html";i:1523258522;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\footer.html";i:1523156739;}*/ ?>
 <!--包含头部文件-->
 <!DOCTYPE HTML>
 <html>
@@ -57,7 +57,7 @@
 					<td class="text-c"><?php echo $vo['faren']; ?></td>
 					<td class="text-c"><?php echo $vo['faren_tel']; ?></td>
 					<td><?php echo $vo['create_time']; ?></td>
-					<td class="td-status"><?php echo status($vo['status'] ); ?></td>
+					<td class="td-status"><?php echo status($vo['status']); ?></td>
 					<td class="td-manage">
 						<a style="text-decoration:none" class="ml-5" onClick="o2o_edit('编辑','<?php echo url('bis/detail',['id'=>$vo['id']]); ?>','',600)" href="javascript:;" title="编辑">查看</a>
 						<a style="text-decoration:none" class="ml-5" onClick="o2o_edit('<?php echo url('bis/status',['id'=>$vo['id'], 'status'=>-1]); ?>')" href="javascript:;" title="删除">删除</a>

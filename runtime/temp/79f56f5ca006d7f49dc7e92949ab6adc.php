@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:85:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\category\index.html";i:1523328256;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\header.html";i:1523258522;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\footer.html";i:1523156739;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:85:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\category\index.html";i:1523332930;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\header.html";i:1523258522;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\footer.html";i:1523156739;}*/ ?>
 <!--包含头部文件-->
 <!DOCTYPE HTML>
 <html>
@@ -57,7 +57,7 @@
 					<td><?php echo $vo['id']; ?></td>
 					<td><?php echo $vo['name']; ?></td>
 					<td class="text-c listorder">
-						<input name="" type="checkbox" value="<?php echo $vo['listorder']; ?>" size="5">
+						<input name="" attr-id="<?php echo $vo['id']; ?>" type="text" value="<?php echo $vo['listorder']; ?>" size="5">
 					</td>
 					<td><?php echo $vo['create_time']; ?></td>
 					<td class="td-status">

@@ -137,7 +137,6 @@ class Category extends Controller
             $this->error($validate->getError());
         }
         //修改数据
-
         $result = $this->obj->save([
             'name'=>$data['name'],
             'parent_id'=>$data['parent_id'],
@@ -149,7 +148,34 @@ class Category extends Controller
         {
             $this->error('编辑失败');
         }
-
         $this->success('编辑成功',url('Category/index'));
+    }
+
+    /**
+     * 排序
+     */
+    public function listorder()
+    {
+        //获取数据表单数据
+        $data =input('post.');
+        //数据校验
+        $validate =validate('Category');
+        $res =$validate->scene('listorder')->check($data);
+        if(!$res)
+        {
+            $this->error($validate->getError());
+        }
+        $result = $this->obj->save([
+            'listorder'=>$data['id']
+        ],[
+            'id'=>$data['id']
+        ]);
+
+        if(!$result)
+        {
+            $this->result($_SERVER['HTTP_REFERER'],0,'ERROR');
+        }
+
+        $this->result($_SERVER['HTTP_REFERER'],1,'success');
     }
 }

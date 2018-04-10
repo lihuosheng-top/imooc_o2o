@@ -38,17 +38,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Category.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Category.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/admin/controller/Category.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="146" column="11" lean-forward="false" selection-start-line="146" selection-start-column="11" selection-end-line="146" selection-end-column="11" />
-              <folding>
-                <element signature="e#249#556#0#PHP" expanded="false" />
-                <element signature="e#593#1077#0#PHP" expanded="false" />
-                <element signature="e#1112#1297#0#PHP" expanded="false" />
-                <element signature="e#2170#2682#0#PHP" expanded="false" />
-              </folding>
+            <state relative-caret-position="324">
+              <caret line="178" column="60" lean-forward="false" selection-start-line="178" selection-start-column="60" selection-end-line="178" selection-end-column="60" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -83,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/admin/view/category/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="35" column="110" lean-forward="false" selection-start-line="35" selection-start-column="110" selection-end-line="35" selection-end-column="110" />
+            <state relative-caret-position="-451">
+              <caret line="27" column="105" lean-forward="false" selection-start-line="27" selection-start-column="105" selection-end-line="27" selection-end-column="105" />
               <folding />
             </state>
           </provider>
@@ -96,8 +91,8 @@
       <file leaf-file-name="Category.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/admin/validate/Category.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="30" column="42" lean-forward="false" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+            <state relative-caret-position="276">
+              <caret line="33" column="40" lean-forward="false" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -170,10 +165,10 @@
         <option value="$PROJECT_DIR$/application/admin/view/bis/apply.html" />
         <option value="$PROJECT_DIR$/application/common/model/Category.php" />
         <option value="$PROJECT_DIR$/application/admin/view/category/add.html" />
-        <option value="$PROJECT_DIR$/application/admin/view/category/index.html" />
-        <option value="$PROJECT_DIR$/application/admin/validate/Category.php" />
         <option value="$PROJECT_DIR$/application/admin/view/category/edit.html" />
+        <option value="$PROJECT_DIR$/application/admin/validate/Category.php" />
         <option value="$PROJECT_DIR$/application/admin/controller/Category.php" />
+        <option value="$PROJECT_DIR$/application/admin/view/category/index.html" />
       </list>
     </option>
   </component>
@@ -189,9 +184,9 @@
       <path value="$PROJECT_DIR$/vendor/topthink/think-installer" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="32" />
-    <option name="y" value="75" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="79" />
+    <option name="y" value="116" />
     <option name="width" value="1373" />
     <option name="height" value="804" />
   </component>
@@ -319,18 +314,17 @@
       <workItem from="1523166748633" duration="6000" />
       <workItem from="1523166812228" duration="4334000" />
       <workItem from="1523233963545" duration="28776000" />
-      <workItem from="1523320373595" duration="10989000" />
+      <workItem from="1523320373595" duration="12508000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55818000" />
+    <option name="totallyTimeSpent" value="57337000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="32" y="75" width="1373" height="804" extended-state="0" />
-    <editor active="true" />
+    <frame x="79" y="116" width="1373" height="804" extended-state="1" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20487434" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -707,14 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/view/category/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="35" column="110" lean-forward="false" selection-start-line="35" selection-start-column="110" selection-end-line="35" selection-end-column="110" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/common/model/Category.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="596">
@@ -731,14 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/validate/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="30" column="42" lean-forward="false" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/admin/view/category/edit.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="31">
@@ -747,16 +725,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/validate/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="33" column="40" lean-forward="false" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/admin/controller/Category.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="146" column="11" lean-forward="false" selection-start-line="146" selection-start-column="11" selection-end-line="146" selection-end-column="11" />
-          <folding>
-            <element signature="e#249#556#0#PHP" expanded="false" />
-            <element signature="e#593#1077#0#PHP" expanded="false" />
-            <element signature="e#1112#1297#0#PHP" expanded="false" />
-            <element signature="e#2170#2682#0#PHP" expanded="false" />
-          </folding>
+        <state relative-caret-position="324">
+          <caret line="178" column="60" lean-forward="false" selection-start-line="178" selection-start-column="60" selection-end-line="178" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/category/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-451">
+          <caret line="27" column="105" lean-forward="false" selection-start-line="27" selection-start-column="105" selection-end-line="27" selection-end-column="105" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\dellist.html";i:1523259982;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\header.html";i:1523258522;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\footer.html";i:1523156739;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\category\edit.html";i:1523329607;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\header.html";i:1523258522;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\footer.html";i:1523156739;}*/ ?>
 <!--包含头部文件-->
 <!DOCTYPE HTML>
 <html>
@@ -33,40 +33,41 @@
 <meta name="description" content="o2o平台">
 </head>
 <body>
-<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 商户入驻申请 </nav>
 <div class="page-container">
-	
-	
-	<div class="mt-20">
-		<table class="table table-border table-bordered table-bg table-hover table-sort">
-			<thead>
-				<tr class="text-c">
-					<th width="80">ID</th>
-					<th width="100">商户名称</th>
-					<th width="30">法人</th>
-					<th width="150">联系电话</th>
-					<th width="60">申请时间</th>
-					<th width="60">状态</th>
-					<th width="100">操作</th>
-				</tr>
-			</thead>
-			<tbody>
-				<?php if(is_array($bis) || $bis instanceof \think\Collection || $bis instanceof \think\Paginator): $i = 0; $__LIST__ = $bis;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
-				<tr class="text-c">
-					<td><?php echo $vo['id']; ?></td>
-					<td><?php echo $vo['name']; ?></td>
-					<td class="text-c"><?php echo $vo['faren']; ?></td>
-					<td class="text-c"><?php echo $vo['faren_tel']; ?></td>
-					<td><?php echo $vo['create_time']; ?></td>
+	<form class="form form-horizontal form-o2o-add" id="form-o2o-add" method="post" action="">
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>生活服务分类de名称：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="<?php echo $category['name']; ?>" placeholder="" id="name" name="name">
+				<input type="hidden" name="id" value="<?php echo $category['id']; ?>">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>分类de栏目：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<span class="select-box">
+				<select name="parent_id" class="select">
+					<option value="0">一级分类</option>
+					<!--<?php if(is_array($categories) || $categories instanceof \think\Collection || $categories instanceof \think\Paginator): $i = 0; $__LIST__ = $categories;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>-->
 
-					<td class="td-status"><?php echo status($vo['status'] ); ?></td>
-					<td class="td-manage"> <a style="text-decoration:none" class="ml-5" onClick="" href="javascript:;" title="删除"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
-				</tr>
-			<?php endforeach; endif; else: echo "" ;endif; ?>
+					<!--<option value="<?php echo $vo['id']; ?>" <?php if($category['parent_id'] == $vo['id']): ?>-->
+							<!--selected="selected" <?php endif; ?>><?php echo $vo['name']; ?></option>-->
+					<!--<?php endforeach; endif; else: echo "" ;endif; ?>-->
+
+				</select>
+				</span>
+			</div>
+		</div>
+		
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2">
+				<button  type="submit" class="btn btn-primary radius" ><i class="Hui-iconfont">&#xe632;</i> 保存</button>
 				
-			</tbody>
-		</table>
-	</div>
+				<button onClick="layer_close();" class="btn btn-default radius" type="button">&nbsp;&nbsp;取消&nbsp;&nbsp;</button>
+			</div>
+		</div>
+	</form>
+</div>
 </div>
 <!--包含头部文件-->
 <script type="text/javascript" src="__STATIC__/admin/hui/lib/jquery/1.9.1/jquery.min.js"></script>

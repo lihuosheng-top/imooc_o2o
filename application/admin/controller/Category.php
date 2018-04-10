@@ -96,4 +96,30 @@ class Category extends Controller
 //        $this->redirect('','','','');
 
     }
+
+
+    /**
+     * 进入编辑页面
+     */
+    public function edit()
+    {
+        /**
+         * 获取输入数据 支持默认值和过滤
+         * @param string    $key 获取的变量名
+         * @param mixed     $default 默认值
+         * @param string    $filter 过滤方法
+         * @return mixed
+         */
+        $id = input('id',0,'intval');
+        //根据Id获取一行的信息
+        $category = $this->obj->get($id);
+        $data = $this->obj->getAllFirstNormalCategories();
+        return $this->fetch('',[
+            'category'=>$category,
+            'categories'=>$data
+            ]);
+
+
+
+    }
 }

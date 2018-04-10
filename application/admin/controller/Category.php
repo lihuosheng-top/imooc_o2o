@@ -72,6 +72,7 @@ class Category extends Controller
         }
         //获取数据表单数据
        //方法一：
+
         $data = input('post.');
         //方法二：（原生写法）
 //        $data = $_POST;
@@ -121,5 +122,34 @@ class Category extends Controller
 
 
 
+    }
+
+    /**
+     * 编辑保存
+     */
+    public function update(){
+            //当我们不知道是什么方式传输数据时使用
+        $data =input();
+        $validate =validate('Category');
+        $res =$validate->scene('update')->check($data);
+        if(!$res)
+        {
+            $this->error($validate->getError());
+        }
+        //修改数据
+
+        $result = $this->obj->save([
+            'name'=>$data['name'],
+            'parent_id'=>$data['parent_id'],
+        ],
+        [
+            'id'=>$data['id'],
+        ]);
+        if (!$result)
+        {
+            $this->error('编辑失败');
+        }
+
+        $this->success('编辑成功',url('Category/index'));
     }
 }

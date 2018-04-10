@@ -27,7 +27,8 @@ class Category extends Validate{
     //设置场景使用
     protected  $scene =[
       'status' =>['status','id'],
-        'add'  =>['name','parent_id']
+        'add'  =>['name','parent_id'],
+        'update' =>['name','id','parent_id']
     ];
 
 

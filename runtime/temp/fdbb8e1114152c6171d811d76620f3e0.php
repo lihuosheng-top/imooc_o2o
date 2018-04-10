@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\category\edit.html";i:1523329607;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\header.html";i:1523258522;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\footer.html";i:1523156739;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\category\edit.html";i:1523331213;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\header.html";i:1523258522;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\footer.html";i:1523156739;}*/ ?>
 <!--包含头部文件-->
 <!DOCTYPE HTML>
 <html>
@@ -34,7 +34,7 @@
 </head>
 <body>
 <div class="page-container">
-	<form class="form form-horizontal form-o2o-add" id="form-o2o-add" method="post" action="">
+	<form class="form form-horizontal form-o2o-add" id="form-o2o-add" method="post" action="<?php echo url('Category/update'); ?>">
 		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>生活服务分类de名称：</label>
 			<div class="formControls col-xs-8 col-sm-9">
@@ -48,11 +48,11 @@
 				<span class="select-box">
 				<select name="parent_id" class="select">
 					<option value="0">一级分类</option>
-					<!--<?php if(is_array($categories) || $categories instanceof \think\Collection || $categories instanceof \think\Paginator): $i = 0; $__LIST__ = $categories;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>-->
+					<?php if(is_array($categories) || $categories instanceof \think\Collection || $categories instanceof \think\Paginator): $i = 0; $__LIST__ = $categories;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
 
-					<!--<option value="<?php echo $vo['id']; ?>" <?php if($category['parent_id'] == $vo['id']): ?>-->
-							<!--selected="selected" <?php endif; ?>><?php echo $vo['name']; ?></option>-->
-					<!--<?php endforeach; endif; else: echo "" ;endif; ?>-->
+					<option value="<?php echo $vo['id']; ?>" <?php if($category['parent_id'] == $vo['id']): ?>
+							selected="selected" <?php endif; ?>><?php echo $vo['name']; ?></option>
+					<?php endforeach; endif; else: echo "" ;endif; ?>
 
 				</select>
 				</span>

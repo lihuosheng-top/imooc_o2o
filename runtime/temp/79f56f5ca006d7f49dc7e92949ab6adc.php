@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:85:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\category\index.html";i:1523332930;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\header.html";i:1523258522;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\footer.html";i:1523156739;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:85:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\category\index.html";i:1523334240;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\header.html";i:1523258522;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\footer.html";i:1523156739;}*/ ?>
 <!--包含头部文件-->
 <!DOCTYPE HTML>
 <html>
@@ -89,27 +89,11 @@
 <script type="text/javascript" src="__STATIC__/admin/js/common.js"></script>
 <script type="text/javascript" src="__STATIC__/admin/uploadify/jquery.uploadify.min.js"></script>
 <script type="text/javascript" src="__STATIC__/admin/js/image.js"></script>
-<script>
-/*页面 全屏-添加*/
-function o2o_edit(title,url){
-	var index = layer.open({
-		type: 2,
-		title: title,
-		content: url
-	});
-	layer.full(index);
-}
 
-/*添加或者编辑缩小的屏幕*/
-function o2o_s_edit(title,url,w,h){
-	layer_show(title,url,w,h);
-}
-/*-删除*/
-function o2o_del(id,url){
-	
-	layer.confirm('确认要删除吗？',function(index){
-		window.location.href=url;
-	});
-}
+<script>
+
+    var SCOPE = {
+        'listorder_url' : "<?php echo url('category/listorder'); ?>"
+    };
 
 </script>

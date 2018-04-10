@@ -47,9 +47,6 @@ function status($status)
         return "<label class='label label-danger radius'>未通过</label>";
     }
 }
-
-
-
 //设置分页方法
 function pagination($pageObj)
 {
@@ -60,5 +57,26 @@ function pagination($pageObj)
     $result = "<div class='cl pd-5 bg-1 bk-gray mt-20 tp5-o2o'>" .$pageObj->render() ."</div>";
 
     return $result;
+}
+//封装这个函数(通过category的id获取分类的名称)
+
+function getCategoryNameByCategoryId($category_id)
+{
+    if(empty($category_id))
+    {
+        return '';
+    }
+    $category = model("Category")->get($category_id);
+    return $category->name;
+}
+//通过cityid获取城市名字
+function getCityNameByCityId($city_id)
+{
+    if(empty($city_id))
+    {
+        return '';
+    }
+    $city =model('City')->get($city_id);
+    return $city->name;
 
 }

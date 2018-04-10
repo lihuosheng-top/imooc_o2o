@@ -30,4 +30,23 @@ public function getFirstNormalCategories($parent_id = 0)
     return $this->where($data)->order($order)->paginate(5);
 }
 
+//获取所有分类栏目（不分页处理）
+public function getAllFirstNormalCategories($parent_id = 0)
+{
+    //条件设置
+    $data = [
+      'status' => ['neq', -1],
+      'parent_id' =>$parent_id
+
+    ];
+
+    //排序
+    $order =[
+      'listorder' =>'desc',
+      'id' =>'desc'
+    ];
+    return $this->where($data)->order($order)->select();
+}
+
+
 }

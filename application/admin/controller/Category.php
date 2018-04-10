@@ -24,6 +24,9 @@ class Category extends Controller
             ]);
     }
 
+    /**
+     * 修改状态的函数
+     */
     public function status()
     {
         //获取参数
@@ -45,6 +48,52 @@ class Category extends Controller
 
         $this->success('状态更新成功');
     }
+    /**
+     * 进入添加页面
+     */
+    public function add()
+    {
+        //一级分类
+        $data = $this->obj->getAllFirstNormalCategories();
+        return $this->fetch('',[
+            'categories' =>$data
+        ]);
+    }
+    /**
+     * 添加保存
+     */
 
+    public function save()
+    {
+        //判断是否为post请求
+        if(!request()->isPost())
+        {
+            return '保存失败';
+        }
+        //获取数据表单数据
+       //方法一：
+        $data = input('post.');
+        //方法二：（原生写法）
+//        $data = $_POST;
+        //方法三：
+//          $data = request()->post();
+        //校验数据
+        $validate = validate('Category');
+        //在需要验证的地方直接使用 scene 方法验证，check方法为检验什么数据
+        $res = $validate->scene('add')->check($data);
+        if(!$res) {
+            $this->error($validate->getError());
+        }
+        //添加失败
+        $result = $this->obj->save($data);
 
+        if(!$result)
+        {
+            $this->error('添加失败');
+        }
+        //成功跳回category/index页面
+        $this->success('添加成功',url('Category/index'));
+//        $this->redirect('','','','');
+
+    }
 }

@@ -7,9 +7,11 @@
         <div class="row cl">
             <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>商户名称：</label>
             <div class="formControls col-xs-8 col-sm-3">
-                <input type="text" class="input-text" value="" placeholder="" id="" name="name">
+                <input type="text" class="input-text" value="{$bis.name}" placeholder="" id="" name="name">
             </div>
         </div>
+
+
 
 
         <div class="row cl">
@@ -17,18 +19,26 @@
             <div class="formControls col-xs-8 col-sm-2">
 				<span class="select-box">
 				<select name="city_id" class="select cityId">
-					<option value="0">--请选择--</option>
+                    {volist name='cities' id='vo'}
+                    <option value="{$vo.id}" {if condition="$bis.city_id eq $vo.id"} selected="selected"{if/}>{$vo.name}</option>
+                    {/volist}
 				</select>
 				</span>
             </div>
             <div class="formControls col-xs-8 col-sm-2">
 				<span class="select-box">
 				<select name="se_city_id" class="select se_city_id">
-                       <option value="0">--请选择--</option>
-				</select>
+                     {volist name='se_cities' id='vo'}
+                       <option value="{$vo.id}" {if condition="$secityid eq $vo.id"} selected="selected"{/if}>{$vo.name}</option>
+                    {/volist}
+
+                </select>
 				</span>
             </div>
         </div>
+
+
+
 
         <div class="row cl">
             <label class="form-label col-xs-4 col-sm-2">缩略图：</label>

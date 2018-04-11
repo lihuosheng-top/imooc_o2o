@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:81:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\detail.html";i:1523431549;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\header.html";i:1523258522;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\footer.html";i:1523156739;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:81:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\detail.html";i:1523437069;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\header.html";i:1523258522;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\footer.html";i:1523156739;}*/ ?>
 <!--包含头部文件-->
 <!DOCTYPE HTML>
 <html>
@@ -39,9 +39,11 @@
         <div class="row cl">
             <label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>商户名称：</label>
             <div class="formControls col-xs-8 col-sm-3">
-                <input type="text" class="input-text" value="" placeholder="" id="" name="name">
+                <input type="text" class="input-text" value="<?php echo $bis['name']; ?>" placeholder="" id="" name="name">
             </div>
         </div>
+
+
 
 
         <div class="row cl">
@@ -49,18 +51,26 @@
             <div class="formControls col-xs-8 col-sm-2">
 				<span class="select-box">
 				<select name="city_id" class="select cityId">
-					<option value="0">--请选择--</option>
+                    <?php if(is_array($cities) || $cities instanceof \think\Collection || $cities instanceof \think\Paginator): $i = 0; $__LIST__ = $cities;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
+                    <option value="<?php echo $vo['id']; ?>" {if condition="$bis.city_id eq $vo.id"} selected="selected"{if/}><?php echo $vo['name']; ?></option>
+                    <?php endforeach; endif; else: echo "" ;endif; ?>
 				</select>
 				</span>
             </div>
             <div class="formControls col-xs-8 col-sm-2">
 				<span class="select-box">
 				<select name="se_city_id" class="select se_city_id">
-                       <option value="0">--请选择--</option>
-				</select>
+                     <?php if(is_array($se_cities) || $se_cities instanceof \think\Collection || $se_cities instanceof \think\Paginator): $i = 0; $__LIST__ = $se_cities;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
+                       <option value="<?php echo $vo['id']; ?>" <?php if($secityid == $vo['id']): ?> selected="selected"<?php endif; ?>><?php echo $vo['name']; ?></option>
+                    <?php endforeach; endif; else: echo "" ;endif; ?>
+
+                </select>
 				</span>
             </div>
         </div>
+
+
+
 
         <div class="row cl">
             <label class="form-label col-xs-4 col-sm-2">缩略图：</label>

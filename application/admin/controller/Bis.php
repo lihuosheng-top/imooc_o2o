@@ -56,9 +56,55 @@ class Bis extends Controller{
     //编辑
     public function detail()
     {
-        return $this->fetch();
+        //获取id
+        $id =input('id',0,'intval');
+        //根据数据库获取一行信息
+        $bis =$this->obj->get(['id'=>$id]);
+//        dump($bis);
+        //商户账户信息
+        $bisaccount =model('BisAccount')->getAccountById($id);
+//        dump($bisaccount);
+        //获取bislocation信息
+        $bislocation =model('BisLocation')->getLocationById($id);
+            //获取一级城市信息
+        $cities = model('City')->getNormalCitiesByParentId();
+
+//        dump($cities);
+        //获取二级城市
+        $se_cities = model('City')->getNormalCitiesByParentId(intval($bis['city_id']));
+        //获取一级分类
+        $categories = model('Category')->getFirstNormalCategories();
+        //获取citi_path里面的二级城市分类
+        $city_path =$bis['city_path'];
+        $se_city_id = $this->getSeCityIdByCityPath($city_path);
+
+
+        return $this->fetch('',[
+            'bis' =>$bis,
+            'bisaccount' =>$bisaccount,
+            'bislocation' =>$bislocation,
+            'cities' =>$cities,
+            'se_cities' =>$se_cities,
+            'categories' =>$categories,
+            'secityid' =>$se_city_id,
+        ]);
     }
 
+    public function getSeCityIdByCityPath()
+    {
+        if(empty($city_path))
+        {
+            return '';
+        }
+        //正则校验([9,18])
+        if (preg_match('/,/',$city_path))
+        {
+            //把字符串按照某个字符分割形成数组
+            $cityArray =explode(',',$city_path);
+            $se_city_id =$cityArray[1];
+            return $se_city_id;
+        }
+    }
 
 
     //修改状态的方法(点击能进行编辑状态)

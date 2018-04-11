@@ -21070,3 +21070,3409 @@
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
+[ 2018-04-11T15:31:33+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/detail
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/detail [运行时间：0.175326s][吞吐率：5.70req/s] [内存消耗：3,430.58kb] [文件加载：45]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->detail[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\detail.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T15:31:37+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin [运行时间：0.116636s][吞吐率：8.57req/s] [内存消耗：2,047.63kb] [文件加载：38]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T15:31:37+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/index/welcome.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/index/welcome.html [运行时间：0.079792s][吞吐率：12.53req/s] [内存消耗：1,951.60kb] [文件加载：36]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T15:31:39+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/deal/audit.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/deal/audit.html [运行时间：0.137799s][吞吐率：7.26req/s] [内存消耗：4,007.85kb] [文件加载：52]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'audit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Deal->audit[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Deal.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\deal\audit.html [ array (
+  0 => 'deals',
+  1 => 'categories',
+  2 => 'cities',
+  3 => 'data',
+  4 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001900s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.010275s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_deal` WHERE  `status` IN (0,1) LIMIT 1 [ RunTime:0.001064s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `status` IN (0,1) ORDER BY `listorder`  desc,`id`  desc LIMIT 0,3 [ RunTime:0.002322s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.008248s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001520s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.007996s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` > 0 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001622s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000616s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.001220s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000578s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000749s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000728s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T15:31:45+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html [运行时间：0.101359s][吞吐率：9.87req/s] [内存消耗：3,827.77kb] [文件加载：50]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\index.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001106s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.007846s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000864s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.001002s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T15:31:47+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/detail/id/32.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/detail/id/32.html [运行时间：0.190104s][吞吐率：5.26req/s] [内存消耗：3,431.13kb] [文件加载：45]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->detail[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\detail.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T15:31:52+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/detail/id/32.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/detail/id/32.html [运行时间：0.116770s][吞吐率：8.56req/s] [内存消耗：3,431.13kb] [文件加载：45]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->detail[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\detail.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T15:32:25+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/detail/id/32.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/detail/id/32.html [运行时间：0.102895s][吞吐率：9.72req/s] [内存消耗：3,431.13kb] [文件加载：45]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->detail[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\detail.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T15:35:44+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin [运行时间：0.099653s][吞吐率：10.03req/s] [内存消耗：2,047.82kb] [文件加载：38]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T15:35:45+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/index/welcome.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/index/welcome.html [运行时间：0.055488s][吞吐率：18.02req/s] [内存消耗：1,951.60kb] [文件加载：36]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T15:35:47+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html [运行时间：0.101196s][吞吐率：9.88req/s] [内存消耗：3,829.45kb] [文件加载：50]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\index.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001080s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.008671s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000910s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.000957s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T15:35:49+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/detail/id/32.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/detail/id/32.html [运行时间：0.147941s][吞吐率：6.76req/s] [内存消耗：3,528.43kb] [文件加载：46]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->detail[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\detail.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001362s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.013026s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.003577s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T15:44:02+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin [运行时间：0.171339s][吞吐率：5.84req/s] [内存消耗：2,047.82kb] [文件加载：38]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T15:44:02+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/index/welcome.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/index/welcome.html [运行时间：0.066035s][吞吐率：15.14req/s] [内存消耗：1,951.60kb] [文件加载：36]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T15:44:03+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html [运行时间：0.109191s][吞吐率：9.16req/s] [内存消耗：3,830.65kb] [文件加载：50]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\index.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001985s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.007972s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.001035s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.003105s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T15:44:05+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/detail/id/32.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/detail/id/32.html [运行时间：0.283904s][吞吐率：3.52req/s] [内存消耗：3,593.96kb] [文件加载：47]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->detail[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\detail.html [ array (
+  0 => 'bis',
+  1 => 'bisaccount',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001497s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.011672s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.001223s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.167507s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `bis_id` = 32 LIMIT 1 [ RunTime:0.003841s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T15:57:47+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin [运行时间：0.116438s][吞吐率：8.59req/s] [内存消耗：2,047.82kb] [文件加载：38]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T15:57:47+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/index/welcome.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/index/welcome.html [运行时间：0.043666s][吞吐率：22.90req/s] [内存消耗：1,951.60kb] [文件加载：36]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T15:57:48+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html [运行时间：0.104914s][吞吐率：9.53req/s] [内存消耗：3,831.78kb] [文件加载：50]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\index.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001830s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.007949s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.001336s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T15:57:51+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/detail/id/32.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/detail/id/32.html [运行时间：0.259141s][吞吐率：3.86req/s] [内存消耗：3,715.50kb] [文件加载：52]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->detail[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001724s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.020937s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.001736s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.008394s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `bis_id` = 32 LIMIT 1 [ RunTime:0.001037s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.008844s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_mian' in 'where clause'[G:\php\Apache24\htdocs\imooc_o2o\thinkphp\library\think\db\Connection.php:399]
+
+---------------------------------------------------------------
+[ 2018-04-11T15:58:09+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html [运行时间：0.140323s][吞吐率：7.13req/s] [内存消耗：3,831.78kb] [文件加载：50]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\index.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017265s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.013561s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.001142s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.004648s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T15:58:11+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/detail/id/32.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/detail/id/32.html [运行时间：0.134676s][吞吐率：7.43req/s] [内存消耗：3,657.15kb] [文件加载：48]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->detail[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\detail.html [ array (
+  0 => 'bis',
+  1 => 'bisaccount',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004983s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.008147s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.002356s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.010249s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `bis_id` = 32 LIMIT 1 [ RunTime:0.001088s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.011882s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `bis_id` = 32  AND `is_main` = 1 LIMIT 1 [ RunTime:0.001145s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:11:53+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html [运行时间：0.089794s][吞吐率：11.14req/s] [内存消耗：3,832.41kb] [文件加载：50]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\index.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001068s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.009271s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000995s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.000998s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:11:54+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/apply.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/apply.html [运行时间：0.103302s][吞吐率：9.68req/s] [内存消耗：3,807.43kb] [文件加载：50]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->Apply[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\apply.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001044s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.008299s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.000849s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 0 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.001033s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:11:54+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html [运行时间：0.095411s][吞吐率：10.48req/s] [内存消耗：3,832.41kb] [文件加载：50]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\index.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001042s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.008382s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.001079s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.000974s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:11:57+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/detail/id/32.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/detail/id/32.html [运行时间：0.163704s][吞吐率：6.11req/s] [内存消耗：3,752.70kb] [文件加载：49]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->detail[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\detail.html [ array (
+  0 => 'bis',
+  1 => 'bisaccount',
+  2 => 'bislocation',
+  3 => 'cities',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001069s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.010244s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.001633s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.010935s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `bis_id` = 32 LIMIT 1 [ RunTime:0.000982s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.010698s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `bis_id` = 32  AND `is_main` = 1 LIMIT 1 [ RunTime:0.000903s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.008773s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `id`  asc [ RunTime:0.001962s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:12:28+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin [运行时间：0.233160s][吞吐率：4.29req/s] [内存消耗：2,047.63kb] [文件加载：38]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T16:12:29+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/index/welcome.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/index/welcome.html [运行时间：0.080373s][吞吐率：12.44req/s] [内存消耗：1,951.60kb] [文件加载：36]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T16:29:41+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html [运行时间：0.130137s][吞吐率：7.68req/s] [内存消耗：3,837.45kb] [文件加载：50]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\index.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002026s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.008040s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.001430s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.001914s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:29:43+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/detail/id/32.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/detail/id/32.html [运行时间：0.155054s][吞吐率：6.45req/s] [内存消耗：3,831.99kb] [文件加载：52]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->detail[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003088s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.008605s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.001180s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.013926s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `bis_id` = 32 LIMIT 1 [ RunTime:0.004158s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.008473s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `bis_id` = 32  AND `is_main` = 1 LIMIT 1 [ RunTime:0.004255s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.007604s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `id`  asc [ RunTime:0.001848s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` = 3 ORDER BY `id`  asc [ RunTime:0.002025s ]
+[ error ] [0]method not exist:think\db\Query->getFirstNomalCategories[G:\php\Apache24\htdocs\imooc_o2o\thinkphp\library\think\db\Query.php:93]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:31:52+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html [运行时间：0.082529s][吞吐率：12.12req/s] [内存消耗：3,837.45kb] [文件加载：50]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\index.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001187s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.009775s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000935s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.001313s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:31:54+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/detail/id/32.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/detail/id/32.html [运行时间：0.164182s][吞吐率：6.09req/s] [内存消耗：3,992.84kb] [文件加载：53]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->detail[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\detail.html [ array (
+  0 => 'bis',
+  1 => 'bisaccount',
+  2 => 'bislocation',
+  3 => 'cities',
+  4 => 'se_cities',
+  5 => 'categories',
+  6 => 'secityid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002225s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.013527s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.001523s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.008368s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `bis_id` = 32 LIMIT 1 [ RunTime:0.000837s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.009794s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `bis_id` = 32  AND `is_main` = 1 LIMIT 1 [ RunTime:0.001111s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.010318s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `id`  asc [ RunTime:0.001772s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` = 3 ORDER BY `id`  asc [ RunTime:0.009578s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.010432s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 LIMIT 1 [ RunTime:0.001573s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.001242s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:32:20+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin [运行时间：0.193073s][吞吐率：5.18req/s] [内存消耗：2,047.82kb] [文件加载：38]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T16:32:21+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/index/welcome.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/index/welcome.html [运行时间：0.166573s][吞吐率：6.00req/s] [内存消耗：1,951.60kb] [文件加载：36]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T16:32:25+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html [运行时间：0.095659s][吞吐率：10.45req/s] [内存消耗：3,837.45kb] [文件加载：50]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\index.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001320s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.009333s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000879s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.001283s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:32:26+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/detail/id/32.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/detail/id/32.html [运行时间：0.172417s][吞吐率：5.80req/s] [内存消耗：4,225.61kb] [文件加载：55]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->detail[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\detail.html [ array (
+  0 => 'bis',
+  1 => 'bisaccount',
+  2 => 'bislocation',
+  3 => 'cities',
+  4 => 'se_cities',
+  5 => 'categories',
+  6 => 'secityid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004994s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.009354s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.001193s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.007598s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `bis_id` = 32 LIMIT 1 [ RunTime:0.002230s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.008702s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `bis_id` = 32  AND `is_main` = 1 LIMIT 1 [ RunTime:0.001056s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.009327s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `id`  asc [ RunTime:0.001229s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` = 3 ORDER BY `id`  asc [ RunTime:0.004816s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.007150s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 LIMIT 1 [ RunTime:0.001524s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.001784s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:36:33+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/deal/audit.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/deal/audit.html [运行时间：0.148969s][吞吐率：6.71req/s] [内存消耗：4,010.37kb] [文件加载：52]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'audit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Deal->audit[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Deal.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\deal\audit.html [ array (
+  0 => 'deals',
+  1 => 'categories',
+  2 => 'cities',
+  3 => 'data',
+  4 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002140s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.008776s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_deal` WHERE  `status` IN (0,1) LIMIT 1 [ RunTime:0.000995s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `status` IN (0,1) ORDER BY `listorder`  desc,`id`  desc LIMIT 0,3 [ RunTime:0.001103s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.007314s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001142s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.009191s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` > 0 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001189s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000666s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.001050s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.001440s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000879s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000928s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:36:34+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html [运行时间：0.101169s][吞吐率：9.88req/s] [内存消耗：3,837.45kb] [文件加载：50]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\index.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005802s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.011528s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.001061s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.001408s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:36:35+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/detail/id/32.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/detail/id/32.html [运行时间：0.174696s][吞吐率：5.72req/s] [内存消耗：4,227.27kb] [文件加载：55]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->detail[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\detail.html [ array (
+  0 => 'bis',
+  1 => 'bisaccount',
+  2 => 'bislocation',
+  3 => 'cities',
+  4 => 'se_cities',
+  5 => 'categories',
+  6 => 'secityid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003546s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.010203s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.001597s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.007081s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `bis_id` = 32 LIMIT 1 [ RunTime:0.000842s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.009181s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `bis_id` = 32  AND `is_main` = 1 LIMIT 1 [ RunTime:0.001018s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.009859s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `id`  asc [ RunTime:0.001262s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` = 3 ORDER BY `id`  asc [ RunTime:0.001242s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.013630s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 LIMIT 1 [ RunTime:0.001047s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.001240s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:37:39+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html [运行时间：0.080395s][吞吐率：12.44req/s] [内存消耗：3,837.45kb] [文件加载：50]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\index.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001092s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.008055s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000929s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.001033s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:37:41+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/detail/id/32.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/detail/id/32.html [运行时间：0.176507s][吞吐率：5.67req/s] [内存消耗：4,227.58kb] [文件加载：55]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->detail[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\detail.html [ array (
+  0 => 'bis',
+  1 => 'bisaccount',
+  2 => 'bislocation',
+  3 => 'cities',
+  4 => 'se_cities',
+  5 => 'categories',
+  6 => 'secityid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002113s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.008909s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.002354s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.007941s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `bis_id` = 32 LIMIT 1 [ RunTime:0.000968s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.007911s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `bis_id` = 32  AND `is_main` = 1 LIMIT 1 [ RunTime:0.002002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.008944s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `id`  asc [ RunTime:0.001577s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` = 3 ORDER BY `id`  asc [ RunTime:0.001589s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.011110s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 LIMIT 1 [ RunTime:0.000793s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.001748s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:38:06+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin [运行时间：0.081069s][吞吐率：12.34req/s] [内存消耗：2,047.82kb] [文件加载：38]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T16:38:07+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/index/welcome.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/index/welcome.html [运行时间：0.070835s][吞吐率：14.12req/s] [内存消耗：1,951.60kb] [文件加载：36]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T16:38:08+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/deal/audit.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/deal/audit.html [运行时间：0.161564s][吞吐率：6.19req/s] [内存消耗：4,010.37kb] [文件加载：52]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'audit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Deal->audit[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Deal.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\deal\audit.html [ array (
+  0 => 'deals',
+  1 => 'categories',
+  2 => 'cities',
+  3 => 'data',
+  4 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001242s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.010081s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_deal` WHERE  `status` IN (0,1) LIMIT 1 [ RunTime:0.000962s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `status` IN (0,1) ORDER BY `listorder`  desc,`id`  desc LIMIT 0,3 [ RunTime:0.000988s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.007823s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001248s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.007475s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` > 0 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001312s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.002436s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000853s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.001779s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000929s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000775s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.001477s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:38:09+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html [运行时间：0.106125s][吞吐率：9.42req/s] [内存消耗：3,837.45kb] [文件加载：50]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\index.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001090s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.008468s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.001148s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.001245s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:38:11+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/detail/id/32.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/detail/id/32.html [运行时间：0.198125s][吞吐率：5.05req/s] [内存消耗：4,227.65kb] [文件加载：55]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->detail[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\detail.html [ array (
+  0 => 'bis',
+  1 => 'bisaccount',
+  2 => 'bislocation',
+  3 => 'cities',
+  4 => 'se_cities',
+  5 => 'categories',
+  6 => 'secityid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002211s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.008033s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.001980s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.008542s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `bis_id` = 32 LIMIT 1 [ RunTime:0.000777s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.008143s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `bis_id` = 32  AND `is_main` = 1 LIMIT 1 [ RunTime:0.000953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.010366s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `id`  asc [ RunTime:0.001463s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` = 3 ORDER BY `id`  asc [ RunTime:0.000960s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.011571s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 LIMIT 1 [ RunTime:0.001583s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.002318s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:40:04+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin [运行时间：0.113727s][吞吐率：8.79req/s] [内存消耗：2,047.82kb] [文件加载：38]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T16:40:04+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/index/welcome.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/index/welcome.html [运行时间：0.062503s][吞吐率：16.00req/s] [内存消耗：1,951.60kb] [文件加载：36]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T16:40:06+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html [运行时间：0.109316s][吞吐率：9.15req/s] [内存消耗：3,837.45kb] [文件加载：50]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\index.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001541s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.010010s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.001033s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.001335s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:40:08+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/detail/id/32.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/detail/id/32.html [运行时间：0.187225s][吞吐率：5.34req/s] [内存消耗：4,228.36kb] [文件加载：55]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->detail[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\detail.html [ array (
+  0 => 'bis',
+  1 => 'bisaccount',
+  2 => 'bislocation',
+  3 => 'cities',
+  4 => 'se_cities',
+  5 => 'categories',
+  6 => 'secityid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001392s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.008481s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.001170s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.008477s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `bis_id` = 32 LIMIT 1 [ RunTime:0.002095s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.008773s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `bis_id` = 32  AND `is_main` = 1 LIMIT 1 [ RunTime:0.001120s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.010681s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `id`  asc [ RunTime:0.003104s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` = 3 ORDER BY `id`  asc [ RunTime:0.000929s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.008508s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 LIMIT 1 [ RunTime:0.000842s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.000898s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:43:39+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin [运行时间：0.105680s][吞吐率：9.46req/s] [内存消耗：2,047.82kb] [文件加载：38]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T16:43:39+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/index/welcome.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/index/welcome.html [运行时间：0.122171s][吞吐率：8.19req/s] [内存消耗：1,951.60kb] [文件加载：36]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T16:43:42+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html [运行时间：0.111903s][吞吐率：8.94req/s] [内存消耗：3,837.45kb] [文件加载：50]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\index.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001924s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.008323s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.001104s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.001274s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:43:43+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/detail/id/32.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/detail/id/32.html [运行时间：0.204153s][吞吐率：4.90req/s] [内存消耗：4,357.14kb] [文件加载：59]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->detail[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\detail.html [ array (
+  0 => 'bis',
+  1 => 'bisaccount',
+  2 => 'bislocation',
+  3 => 'cities',
+  4 => 'se_cities',
+  5 => 'categories',
+  6 => 'secityid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002281s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.009058s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.002473s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.008295s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `bis_id` = 32 LIMIT 1 [ RunTime:0.001077s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.008038s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `bis_id` = 32  AND `is_main` = 1 LIMIT 1 [ RunTime:0.000939s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.009192s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `id`  asc [ RunTime:0.001154s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` = 3 ORDER BY `id`  asc [ RunTime:0.000815s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.010498s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 LIMIT 1 [ RunTime:0.001341s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.001434s ]
+[ error ] [8]未定义变量: seCityId[G:\php\Apache24\htdocs\imooc_o2o\runtime\temp\a2d89c2b0f9876d402d105843587a19c.php:63]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:44:05+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin [运行时间：0.253578s][吞吐率：3.94req/s] [内存消耗：2,047.82kb] [文件加载：38]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T16:44:06+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/index/welcome.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/index/welcome.html [运行时间：0.133802s][吞吐率：7.47req/s] [内存消耗：1,951.60kb] [文件加载：36]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T16:44:07+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html [运行时间：0.110455s][吞吐率：9.05req/s] [内存消耗：3,837.45kb] [文件加载：50]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\index.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001077s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.008449s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.001171s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.001635s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:44:08+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/detail/id/32.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/detail/id/32.html [运行时间：0.196893s][吞吐率：5.08req/s] [内存消耗：4,228.16kb] [文件加载：55]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->detail[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\detail.html [ array (
+  0 => 'bis',
+  1 => 'bisaccount',
+  2 => 'bislocation',
+  3 => 'cities',
+  4 => 'se_cities',
+  5 => 'categories',
+  6 => 'secityid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002190s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.012785s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.001161s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.009073s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `bis_id` = 32 LIMIT 1 [ RunTime:0.001425s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.007975s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `bis_id` = 32  AND `is_main` = 1 LIMIT 1 [ RunTime:0.002111s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.008434s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `id`  asc [ RunTime:0.001162s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` = 3 ORDER BY `id`  asc [ RunTime:0.001400s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.008315s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 LIMIT 1 [ RunTime:0.002117s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.003320s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:54:28+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin [运行时间：0.098649s][吞吐率：10.14req/s] [内存消耗：2,047.82kb] [文件加载：38]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T16:54:28+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/index/welcome.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/index/welcome.html [运行时间：0.049215s][吞吐率：20.32req/s] [内存消耗：1,951.60kb] [文件加载：36]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T16:54:30+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html [运行时间：0.091469s][吞吐率：10.93req/s] [内存消耗：3,837.45kb] [文件加载：50]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\index.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001101s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.007483s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000894s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.001466s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:54:31+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/detail/id/32.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/detail/id/32.html [运行时间：0.182479s][吞吐率：5.48req/s] [内存消耗：4,228.12kb] [文件加载：55]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->detail[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\detail.html [ array (
+  0 => 'bis',
+  1 => 'bisaccount',
+  2 => 'bislocation',
+  3 => 'cities',
+  4 => 'se_cities',
+  5 => 'categories',
+  6 => 'secityid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006444s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.011928s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.001200s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.007665s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `bis_id` = 32 LIMIT 1 [ RunTime:0.001787s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.017929s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `bis_id` = 32  AND `is_main` = 1 LIMIT 1 [ RunTime:0.004937s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.009856s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `id`  asc [ RunTime:0.001320s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` = 3 ORDER BY `id`  asc [ RunTime:0.001900s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.008976s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 LIMIT 1 [ RunTime:0.000848s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.001708s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:54:41+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin [运行时间：0.097626s][吞吐率：10.24req/s] [内存消耗：2,047.82kb] [文件加载：38]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T16:54:41+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/index/welcome.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/index/welcome.html [运行时间：0.084192s][吞吐率：11.88req/s] [内存消耗：1,951.60kb] [文件加载：36]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T16:54:53+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html [运行时间：0.121419s][吞吐率：8.24req/s] [内存消耗：3,837.45kb] [文件加载：50]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\index.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001151s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.009230s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000980s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.001436s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:54:55+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/detail/id/32.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/detail/id/32.html [运行时间：0.196752s][吞吐率：5.08req/s] [内存消耗：3,993.30kb] [文件加载：53]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->detail[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\detail.html [ array (
+  0 => 'bis',
+  1 => 'bisaccount',
+  2 => 'bislocation',
+  3 => 'cities',
+  4 => 'se_cities',
+  5 => 'categories',
+  6 => 'secityid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002924s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.032692s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.001436s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.008504s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `bis_id` = 32 LIMIT 1 [ RunTime:0.000918s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.008754s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `bis_id` = 32  AND `is_main` = 1 LIMIT 1 [ RunTime:0.000907s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.010348s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `id`  asc [ RunTime:0.001364s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` = 3 ORDER BY `id`  asc [ RunTime:0.001088s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.007815s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 LIMIT 1 [ RunTime:0.001053s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.000891s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:56:24+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin [运行时间：0.099438s][吞吐率：10.06req/s] [内存消耗：2,047.82kb] [文件加载：38]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T16:56:24+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/index/welcome.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/index/welcome.html [运行时间：0.055943s][吞吐率：17.88req/s] [内存消耗：1,951.60kb] [文件加载：36]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T16:56:28+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/category/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/category/index.html [运行时间：0.123764s][吞吐率：8.08req/s] [内存消耗：3,822.45kb] [文件加载：50]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\category\index.html [ array (
+  0 => 'categories',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001131s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.007074s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 LIMIT 1 [ RunTime:0.001170s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.000967s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:56:30+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/deal/audit.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/deal/audit.html [运行时间：0.238271s][吞吐率：4.20req/s] [内存消耗：4,010.37kb] [文件加载：52]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'audit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Deal->audit[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Deal.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\deal\audit.html [ array (
+  0 => 'deals',
+  1 => 'categories',
+  2 => 'cities',
+  3 => 'data',
+  4 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001047s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.018884s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_deal` WHERE  `status` IN (0,1) LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `status` IN (0,1) ORDER BY `listorder`  desc,`id`  desc LIMIT 0,3 [ RunTime:0.001315s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.067772s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001212s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.023508s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` > 0 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001157s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.001318s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.001630s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000883s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000820s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000612s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:56:31+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html [运行时间：0.115543s][吞吐率：8.65req/s] [内存消耗：3,837.45kb] [文件加载：50]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\index.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001417s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.007364s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.001008s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.001012s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:56:33+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/detail/id/32.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/detail/id/32.html [运行时间：0.211746s][吞吐率：4.72req/s] [内存消耗：3,993.30kb] [文件加载：53]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->detail[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\detail.html [ array (
+  0 => 'bis',
+  1 => 'bisaccount',
+  2 => 'bislocation',
+  3 => 'cities',
+  4 => 'se_cities',
+  5 => 'categories',
+  6 => 'secityid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001356s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.013573s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.001407s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.010656s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `bis_id` = 32 LIMIT 1 [ RunTime:0.001916s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.008371s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `bis_id` = 32  AND `is_main` = 1 LIMIT 1 [ RunTime:0.001703s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.006983s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `id`  asc [ RunTime:0.002801s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` = 3 ORDER BY `id`  asc [ RunTime:0.001021s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.007294s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 LIMIT 1 [ RunTime:0.001489s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.001064s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:57:53+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin [运行时间：0.142692s][吞吐率：7.01req/s] [内存消耗：2,047.82kb] [文件加载：38]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T16:57:53+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/index/welcome.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/index/welcome.html [运行时间：0.057536s][吞吐率：17.38req/s] [内存消耗：1,951.60kb] [文件加载：36]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T16:57:55+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html [运行时间：0.131489s][吞吐率：7.61req/s] [内存消耗：3,837.45kb] [文件加载：50]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\index.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001139s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.009143s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000723s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.001842s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:57:57+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/detail/id/32.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/detail/id/32.html [运行时间：0.460732s][吞吐率：2.17req/s] [内存消耗：4,228.04kb] [文件加载：55]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->detail[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\detail.html [ array (
+  0 => 'bis',
+  1 => 'bisaccount',
+  2 => 'bislocation',
+  3 => 'cities',
+  4 => 'se_cities',
+  5 => 'categories',
+  6 => 'secityid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001535s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.011619s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.005084s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.018557s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `bis_id` = 32 LIMIT 1 [ RunTime:0.001427s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.014220s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `bis_id` = 32  AND `is_main` = 1 LIMIT 1 [ RunTime:0.002095s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.041565s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `id`  asc [ RunTime:0.002171s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` = 3 ORDER BY `id`  asc [ RunTime:0.001679s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.041610s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 LIMIT 1 [ RunTime:0.001865s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.000940s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:58:03+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin [运行时间：0.067539s][吞吐率：14.81req/s] [内存消耗：2,047.82kb] [文件加载：38]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T16:58:03+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/index/welcome.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/index/welcome.html [运行时间：0.052615s][吞吐率：19.01req/s] [内存消耗：1,951.60kb] [文件加载：36]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T16:58:06+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html [运行时间：0.113583s][吞吐率：8.80req/s] [内存消耗：3,837.45kb] [文件加载：50]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\index.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001060s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.007888s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.001068s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.001854s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:58:08+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/detail/id/32.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/detail/id/32.html [运行时间：0.199424s][吞吐率：5.01req/s] [内存消耗：3,993.41kb] [文件加载：53]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->detail[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\detail.html [ array (
+  0 => 'bis',
+  1 => 'bisaccount',
+  2 => 'bislocation',
+  3 => 'cities',
+  4 => 'se_cities',
+  5 => 'categories',
+  6 => 'secityid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001247s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.011586s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.001179s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.011171s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `bis_id` = 32 LIMIT 1 [ RunTime:0.000994s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.009487s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `bis_id` = 32  AND `is_main` = 1 LIMIT 1 [ RunTime:0.001211s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.008953s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `id`  asc [ RunTime:0.001031s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` = 3 ORDER BY `id`  asc [ RunTime:0.001481s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.008740s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 LIMIT 1 [ RunTime:0.001314s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.001609s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:58:16+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html [运行时间：0.081723s][吞吐率：12.24req/s] [内存消耗：3,837.45kb] [文件加载：50]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\index.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001371s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.007517s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000983s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.001609s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:58:18+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/detail/id/32.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/detail/id/32.html [运行时间：0.196533s][吞吐率：5.09req/s] [内存消耗：3,993.41kb] [文件加载：53]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->detail[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\detail.html [ array (
+  0 => 'bis',
+  1 => 'bisaccount',
+  2 => 'bislocation',
+  3 => 'cities',
+  4 => 'se_cities',
+  5 => 'categories',
+  6 => 'secityid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004164s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.012933s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.001254s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `bis_id` = 32 LIMIT 1 [ RunTime:0.002065s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.010700s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `bis_id` = 32  AND `is_main` = 1 LIMIT 1 [ RunTime:0.000868s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.008669s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `id`  asc [ RunTime:0.000876s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` = 3 ORDER BY `id`  asc [ RunTime:0.001327s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.008519s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 LIMIT 1 [ RunTime:0.000869s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.001117s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T16:58:55+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin [运行时间：0.208286s][吞吐率：4.80req/s] [内存消耗：2,047.82kb] [文件加载：38]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T16:58:56+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/index/welcome.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/index/welcome.html [运行时间：0.071049s][吞吐率：14.07req/s] [内存消耗：1,951.60kb] [文件加载：36]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T16:58:58+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin [运行时间：0.085970s][吞吐率：11.63req/s] [内存消耗：2,047.82kb] [文件加载：38]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T16:58:58+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/index/welcome.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/index/welcome.html [运行时间：0.064035s][吞吐率：15.62req/s] [内存消耗：1,951.60kb] [文件加载：36]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-11T17:02:35+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/deal/audit.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/deal/audit.html [运行时间：0.152903s][吞吐率：6.54req/s] [内存消耗：4,010.37kb] [文件加载：52]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'audit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Deal->audit[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Deal.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\deal\audit.html [ array (
+  0 => 'deals',
+  1 => 'categories',
+  2 => 'cities',
+  3 => 'data',
+  4 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001166s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.010007s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_deal` WHERE  `status` IN (0,1) LIMIT 1 [ RunTime:0.001188s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `status` IN (0,1) ORDER BY `listorder`  desc,`id`  desc LIMIT 0,3 [ RunTime:0.001040s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.008080s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001184s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.009625s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` > 0 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.000966s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000685s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000590s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000815s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000592s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T17:02:38+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html [运行时间：0.128526s][吞吐率：7.78req/s] [内存消耗：3,837.45kb] [文件加载：50]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\index.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001154s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.008837s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000946s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.001178s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T17:02:41+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/detail/id/32.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/detail/id/32.html [运行时间：0.202115s][吞吐率：4.95req/s] [内存消耗：3,993.41kb] [文件加载：53]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->detail[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\detail.html [ array (
+  0 => 'bis',
+  1 => 'bisaccount',
+  2 => 'bislocation',
+  3 => 'cities',
+  4 => 'se_cities',
+  5 => 'categories',
+  6 => 'secityid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001568s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.010104s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.001251s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.008322s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `bis_id` = 32 LIMIT 1 [ RunTime:0.001351s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.015680s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `bis_id` = 32  AND `is_main` = 1 LIMIT 1 [ RunTime:0.001167s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.011112s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `id`  asc [ RunTime:0.000859s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` <> -1  AND `parent_id` = 3 ORDER BY `id`  asc [ RunTime:0.000771s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.007477s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 LIMIT 1 [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.003928s ]
+
+---------------------------------------------------------------
+[ 2018-04-11T17:03:01+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/admin/bis/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/admin/bis/index.html [运行时间：0.079046s][吞吐率：12.65req/s] [内存消耗：3,837.45kb] [文件加载：50]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=i5f1a2nq9ri2u8ces2nlrqo2e7; Huiskin=blue',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->index[ G:\php\Apache24\htdocs\imooc_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\bis\index.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001049s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.007897s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000875s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,5 [ RunTime:0.000986s ]
+
+---------------------------------------------------------------

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\index\index.html";i:1498759676;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\header.html";i:1523258522;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\menu.html";i:1498759676;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\footer.html";i:1523156739;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\index\index.html";i:1498759676;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\header.html";i:1523258522;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\menu.html";i:1523421498;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\footer.html";i:1523156739;}*/ ?>
 ﻿<!--包含头部文件-->
 <!DOCTYPE HTML>
 <html>
@@ -72,6 +72,7 @@
 			<dd>
 				<ul>
 					<li><a _href="<?php echo url('category/index'); ?>" data-title="生活服务分类" href="javascript:void(0)">生活服务分类</a></li>
+					<li><a _href="<?php echo url('Category/add'); ?>" data-title="生活服务分类" href="javascript:void(0)">生活分类添加管理</a></li>
 				</ul>
 			</dd>
 		</dl>
@@ -87,9 +88,9 @@
 			<dt><i class="Hui-iconfont">&#xe613;</i> 商家管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 			<dd>
 				<ul>
-					<li><a _href="" data-title="商家列表" href="javascript:void(0)">商户列表</a></li>
-					<li><a _href="" data-title="商家入驻申请" href="javascript:void(0)">商家入驻申请</a></li>
-					<li><a _href="" data-title="删除的商户" href="javascript:void(0)">删除的商户</a></li>
+					<li><a _href="<?php echo url('Bis/index'); ?>" data-title="商家列表" href="javascript:void(0)">商户列表</a></li>
+					<li><a _href="<?php echo url('Bis/apply'); ?>" data-title="商家入驻申请" href="javascript:void(0)">商家入驻申请</a></li>
+					<li><a _href="<?php echo url('Bis/dellist'); ?>" data-title="删除的商户" href="javascript:void(0)">删除的商户</a></li>
 				</ul>
 			</dd>
 		</dl>
@@ -97,8 +98,8 @@
 			<dt><i class="Hui-iconfont">&#xe620;</i> 团购商品管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 			<dd>
 				<ul>
-					<li><a _href="" data-title="商家团购提交" href="javascript:void(0)">商家团购提交</a></li>
-					<li><a _href="" data-title="团购列表" href="javascript:void(0)">团购列表</a></li>
+					<li><a _href="<?php echo url('Deal/audit'); ?>" data-title="商家团购提交" href="javascript:void(0)">商家团购提交</a></li>
+					<li><a _href="<?php echo url('Deal/index'); ?>" data-title="团购列表" href="javascript:void(0)">团购列表</a></li>
 					
 				</ul>
 			</dd>

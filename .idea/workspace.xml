@@ -41,18 +41,18 @@
       <file leaf-file-name="Category.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/admin/controller/Category.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2728">
-              <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+            <state relative-caret-position="4867">
+              <caret line="169" column="41" lean-forward="false" selection-start-line="169" selection-start-column="41" selection-end-line="169" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/admin/controller/Index.php">
+      <file leaf-file-name="Category.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/common/model/Category.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            <state relative-caret-position="1023">
+              <caret line="33" column="43" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -68,23 +68,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Deal.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/admin/controller/Deal.php">
+      <file leaf-file-name="Bis.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/admin/controller/Bis.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="43" column="14" lean-forward="false" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+            <state relative-caret-position="-217">
+              <caret line="49" column="42" lean-forward="false" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detail.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/admin/view/bis/detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Bis.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/admin/controller/Bis.php">
+        <entry file="file://$PROJECT_DIR$/application/common/model/Bis.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="673">
-              <caret line="46" column="29" lean-forward="true" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+            <state relative-caret-position="-25">
+              <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
               <folding>
-                <element signature="e#392#543#0#PHP" expanded="false" />
+                <element signature="e#236#357#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -113,7 +123,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="menu.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/admin/view/public/menu.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="248">
@@ -125,15 +135,6 @@
       </file>
       <file leaf-file-name="o2o_deal" pinned="false" current-in-tab="false">
         <entry file="das://table:/54c748f6/4cfc0f8a-8eae-489b-8df4-0c364da8ecc5/imooc_o2o.o2o_deal">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="o2o_category" pinned="false" current-in-tab="false">
-        <entry file="das://table:/54c748f6/4cfc0f8a-8eae-489b-8df4-0c364da8ecc5/imooc_o2o.o2o_category">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -189,10 +190,8 @@
         <option value="$PROJECT_DIR$/application/common/validate/BisAccount.php" />
         <option value="$PROJECT_DIR$/application/index/view/user/login.html" />
         <option value="$PROJECT_DIR$/application/index/controller/User.php" />
-        <option value="$PROJECT_DIR$/application/admin/view/bis/detail.html" />
         <option value="$PROJECT_DIR$/application/common/model/Bis.php" />
         <option value="$PROJECT_DIR$/application/admin/view/public/header.html" />
-        <option value="$PROJECT_DIR$/application/admin/controller/Bis.php" />
         <option value="$PROJECT_DIR$/application/admin/view/bis/index.html" />
         <option value="$PROJECT_DIR$/application/admin/view/bis/dellist.html" />
         <option value="$PROJECT_DIR$/application/admin/view/bis/apply.html" />
@@ -200,7 +199,6 @@
         <option value="$PROJECT_DIR$/application/admin/view/category/add.html" />
         <option value="$PROJECT_DIR$/application/admin/view/category/edit.html" />
         <option value="$PROJECT_DIR$/application/admin/validate/Category.php" />
-        <option value="$PROJECT_DIR$/application/admin/controller/Category.php" />
         <option value="$PROJECT_DIR$/application/admin/view/category/index.html" />
         <option value="$PROJECT_DIR$/application/common/model/Deal.php" />
         <option value="$PROJECT_DIR$/application/common.php" />
@@ -209,6 +207,9 @@
         <option value="$PROJECT_DIR$/application/admin/view/deal/index.html" />
         <option value="$PROJECT_DIR$/application/admin/view/deal/audit.html" />
         <option value="$PROJECT_DIR$/application/admin/view/public/menu.html" />
+        <option value="$PROJECT_DIR$/application/admin/controller/Category.php" />
+        <option value="$PROJECT_DIR$/application/admin/controller/Bis.php" />
+        <option value="$PROJECT_DIR$/application/admin/view/bis/detail.html" />
       </list>
     </option>
   </component>
@@ -224,8 +225,9 @@
       <path value="$PROJECT_DIR$/vendor/topthink/think-installer" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="3" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-30" />
+    <option name="y" value="67" />
     <option name="width" value="1444" />
     <option name="height" value="867" />
   </component>
@@ -282,6 +284,14 @@
               <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bis" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="imooc_o2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc_o2o" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="category" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -289,6 +299,13 @@
               <item name="imooc_o2o" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="common" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="imooc_o2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc_o2o" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="common" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="model" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="imooc_o2o" type="b2602c69:ProjectViewProjectNode" />
@@ -333,14 +350,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\php\Apache24\htdocs\imooc_o2o\vendor\database" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\php\Apache24\htdocs\imooc_o2o\application\admin\view\bis" />
       <recent name="G:\php\Apache24\htdocs\imooc_o2o\application\admin\view\deal" />
       <recent name="G:\php\Apache24\htdocs\imooc_o2o\application\admin\view" />
       <recent name="G:\php\Apache24\htdocs\imooc_o2o\application\admin\view\category" />
       <recent name="G:\php\Apache24\htdocs\imooc_o2o\public\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\php\Apache24\htdocs\imooc_o2o\vendor\database" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -380,22 +398,22 @@
       <workItem from="1523166812228" duration="4334000" />
       <workItem from="1523233963545" duration="28776000" />
       <workItem from="1523320373595" duration="28865000" />
-      <workItem from="1523407192835" duration="13601000" />
+      <workItem from="1523407192835" duration="17128000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87295000" />
+    <option name="totallyTimeSpent" value="90822000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="0" width="1444" height="867" extended-state="1" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14956647" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07731214" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -425,8 +443,13 @@
           <url>file://$PROJECT_DIR$/application/common.php</url>
           <line>6</line>
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/admin/controller/Bis.php</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -557,7 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/view/bis/detail.html" />
     <entry file="file://$PROJECT_DIR$/public/static/admin/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -586,20 +608,6 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/54c748f6/4cfc0f8a-8eae-489b-8df4-0c364da8ecc5/imooc_o2o.o2o_bis">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/common/model/Bis.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -690,14 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/common/model/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="33" column="43" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/common.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
@@ -724,13 +724,6 @@
       </provider>
     </entry>
     <entry file="das://table:/54c748f6/4cfc0f8a-8eae-489b-8df4-0c364da8ecc5/imooc_o2o.o2o_category">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/54c748f6/4cfc0f8a-8eae-489b-8df4-0c364da8ecc5/imooc_o2o.o2o_deal">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -780,28 +773,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/controller/Bis.php">
+    <entry file="file://$PROJECT_DIR$/application/admin/view/public/menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="46" column="29" lean-forward="true" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
-          <folding>
-            <element signature="e#392#543#0#PHP" expanded="false" />
-          </folding>
+        <state relative-caret-position="248">
+          <caret line="8" column="121" lean-forward="false" selection-start-line="8" selection-start-column="121" selection-end-line="8" selection-end-column="121" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/54c748f6/4cfc0f8a-8eae-489b-8df4-0c364da8ecc5/imooc_o2o.o2o_deal">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/common/model/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1023">
+          <caret line="33" column="43" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/admin/controller/Category.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2728">
-          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        <state relative-caret-position="4867">
+          <caret line="169" column="41" lean-forward="false" selection-start-line="169" selection-start-column="41" selection-end-line="169" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/view/public/menu.html">
+    <entry file="file://$PROJECT_DIR$/application/common/model/Bis.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="8" column="121" lean-forward="false" selection-start-line="8" selection-start-column="121" selection-end-line="8" selection-end-column="121" />
+        <state relative-caret-position="-25">
+          <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+          <folding>
+            <element signature="e#236#357#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/54c748f6/4cfc0f8a-8eae-489b-8df4-0c364da8ecc5/imooc_o2o.o2o_bis">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/controller/Bis.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-217">
+          <caret line="49" column="42" lean-forward="false" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/view/bis/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
           <folding />
         </state>
       </provider>

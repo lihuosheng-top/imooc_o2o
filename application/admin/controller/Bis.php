@@ -9,7 +9,6 @@ namespace app\admin\controller;
 
 
 use think\Controller;
-use think\Request;
 
 class Bis extends Controller{
     //引用
@@ -23,6 +22,7 @@ class Bis extends Controller{
 
     public function index()
     {
+        //显示status为1的商户信息
         $res = $this->obj->getBisByStatus(1);
         return $this->fetch('',[
             'bis'=>$res
@@ -30,8 +30,8 @@ class Bis extends Controller{
 
     }
 
-
-    public function apply()
+    //申请入驻
+    public function Apply()
     {
         $res =$this->obj->getBisByStatus(0);
         return $this->fetch('',[
@@ -42,15 +42,24 @@ class Bis extends Controller{
 
     /**
      * @return mixed
-     * 编辑
+     * 删除商户
      */
     public function dellist()
     {
+        //转台为-1的商户信息
         $res =$this->obj->getBisByStatus(-1);
         return $this->fetch('',[
             'bis'=>$res
         ]);
     }
+
+    //编辑
+    public function detail()
+    {
+        return $this->fetch();
+    }
+
+
 
     //修改状态的方法(点击能进行编辑状态)
     public function status()

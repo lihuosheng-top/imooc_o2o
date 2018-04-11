@@ -9,7 +9,8 @@ class Category extends Controller
 
     // 控制器初始化方法，会在控制器方法调用之前执行
     public function _initialize() {
-        $this->obj = model("Category");
+        parent::_initialize();
+        $this-> obj = model("Category");
     }
     
     public function index()
@@ -166,7 +167,7 @@ class Category extends Controller
             $this->error($validate->getError());
         }
         $result = $this->obj->save([
-            'listorder'=>$data['id']
+            'listorder'=>$data['listorder']
         ],[
             'id'=>$data['id']
         ]);

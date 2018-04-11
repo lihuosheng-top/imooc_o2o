@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:81:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\deal\index.html";i:1523418976;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\header.html";i:1523258522;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\footer.html";i:1523156739;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:81:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\deal\audit.html";i:1523420352;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\header.html";i:1523258522;s:84:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/admin\view\public\footer.html";i:1523156739;}*/ ?>
 <!--包含头部文件-->
 <!DOCTYPE HTML>
 <html>
@@ -35,42 +35,52 @@
 <body>
 <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 团购商品列表 </nav>
 <div class="page-container">
-
 <div class="cl pd-5 bg-1 bk-gray mt-20">
-	<form action="" method="post">
+	<form action="<?php echo url('deal/audit'); ?>" method="post">
+
+
 	<div class="text-c">
+		 <span class="select-box inline">
+			<select name="status" class="select">
+
+				<option value="3">全部状态</option>
+				<?php if(is_array($status) || $status instanceof \think\Collection || $status instanceof \think\Paginator): $i = 0; $__LIST__ = $status;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
+				<option value="<?php echo $vo; ?>">
+					<?php echo status($vo); ?>
+				</option>
+				<?php endforeach; endif; else: echo "" ;endif; ?>
+			</select>
+		</span>
 		 <span class="select-box inline">
 			<select name="category_id" class="select">
 				<option value="0">全部分类</option>
-				<?php if(is_array($categories) || $categories instanceof \think\Collection || $categories instanceof \think\Paginator): $i = 0; $__LIST__ = $categories;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
-				<option value="<?php echo $vo['id']; ?>" <?php if($data['category_id'] == $vo['id']): ?> selected="selected"<?php endif; ?>><?php echo $vo['name']; ?></option>
+				<?php if(is_array($categories) || $categories instanceof \think\Collection || $categories instanceof \think\Paginator): $abc = 0; $__LIST__ = $categories;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($abc % 2 );++$abc;?>
+				<option value="<?php echo $vo['id']; ?>" <?php if($vo['id'] == $data['category_id']): ?> selected="selected" <?php endif; ?>>
+					<?php echo $vo['name']; ?>
+				</option>
 				<?php endforeach; endif; else: echo "" ;endif; ?>
+				
 			</select>
 		</span>
 		<span class="select-box inline">
 			<select name="city_id" class="select">
 				<option value="0">全部城市</option>
-				<?php if(is_array($cities) || $cities instanceof \think\Collection || $cities instanceof \think\Paginator): $i = 0; $__LIST__ = $cities;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
-				<option value="<?php echo $vo['id']; ?>" <?php if($data['city_id'] == $vo['id']): ?> selected="selected"<?php endif; ?>><?php echo $vo['name']; ?></option>
+				<?php if(is_array($cities) || $cities instanceof \think\Collection || $cities instanceof \think\Paginator): if( count($cities)==0 ) : echo "" ;else: foreach($cities as $key=>$vo): ?>
+				<option value="<?php echo $vo['id']; ?>" <?php if($vo['id'] == $data['city_id']): ?> selected="selected" <?php endif; ?>><?php echo $vo['name']; ?></option>
 				<?php endforeach; endif; else: echo "" ;endif; ?>
-
 			</select>
 		</span> 日期范围：
 		<input type="text" name="start_time" class="input-text" id="countTimestart" onfocus="selecttime(1)" value="<?php echo $data['start_time']; ?>" style="width:120px;" >
 			-
 		<input type="text" name="end_time" class="input-text" id="countTimestart" onfocus="selecttime(1)" value="<?php echo $data['end_time']; ?>"  style="width:120px;">
-		<input type="text" name="name" id="" placeholder=" 商品名称" style="width:250px" class="input-text" value="<?php echo $data['name']; ?>">
+		<input type="text" name="name" id="" placeholder=" 商品名称" value="<?php echo $data['name']; ?>" style="width:250px" class="input-text">
 		<button name="" id="" class="btn btn-success" type="submit"><i class="Hui-iconfont">&#xe665;</i> 搜索
 		</button>
 	</div>
+
 	</form>
 
 </div>
-
-
-
-
-
 	<div class="mt-20">
 		<table class="table table-border table-bordered table-bg table-hover table-sort">
 			<thead>
@@ -94,18 +104,21 @@
 					<td><?php echo getCategoryNameByCategoryId($vo['category_id']); ?></td>
 					<td><?php echo getCityNameByCityId($vo['city_id']); ?></td>
 					<td><?php echo $vo['buy_count']; ?></td>
-					<td><?php echo date("Y-m-d H:i",$vo['start_time']); ?> --- <?php echo date("Y-m-d H:i",$vo['end_time']); ?></td>
+					<td><?php echo date('Y-m-d H:i',$vo['start_time']); ?>--<?php echo date('Y-m-d H:i',$vo['end_time']); ?></td>
 					<td><?php echo $vo['create_time']; ?></td>
-					<td><?php echo status($vo['status']); ?></td>
-
-					<td class="td-manage"><a style="text-decoration:none" class="ml-5" onClick="" href="javascript:;" title="查看"><i class="Hui-iconfont">&#xe6df;</i></a>
-						<a style="text-decoration:none" class="ml-5" onClick="o2o_del('<?php echo url('deal/status',['id' =>$vo['id'],'status'=>-1]); ?>')" href="javascript:;" title="下架"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+					<td>
+						<a href="<?php echo url('deal/status',['id'=>$vo['id'],'status'=>$vo['status']?0:1]); ?>">
+							<?php echo status($vo['status']); ?>
+						</a>
+					</td>
+					<td class="td-manage">
+						<a style="text-decoration:none" class="ml-5" onClick="" href="javascript:;" title="查看"><i class="Hui-iconfont">&#xe6df;</i></a>
+						<a style="text-decoration:none" class="ml-5" onClick="o2o_del('<?php echo url('deal/status',['id'=>$vo['id'],'status'=>-1]); ?>')" href="javascript:;" title="下架"><i class="Hui-iconfont">&#xe6e2;</i>下架</a></td>
 				</tr>
 				<?php endforeach; endif; else: echo "" ;endif; ?>
 			</tbody>
 		</table>
 	</div>
-	<?php echo pagination($deals); ?>
 </div>
 <!--包含头部文件-->
 <script type="text/javascript" src="__STATIC__/admin/hui/lib/jquery/1.9.1/jquery.min.js"></script>

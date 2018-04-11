@@ -630,7 +630,7 @@
     </column>
     <column id="131" parent="16" name="status">
       <Position>6</Position>
-      <Comment>0为删除，1 为正常 </Comment>
+      <Comment>0为删除，1 为正常</Comment>
       <DataType>TINYINT(3)|-6</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>1</DefaultExpression>

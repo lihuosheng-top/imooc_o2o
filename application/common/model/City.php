@@ -11,7 +11,7 @@ use think\Model;
 
 class City extends Model{
 
-    //获取所有非省份的城市
+    //获取所有非省份的城市(二级城市)
     public function getAllNotProvinceCities()
     {
 

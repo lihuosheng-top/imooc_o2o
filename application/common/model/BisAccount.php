@@ -9,12 +9,24 @@ namespace app\common\model;
 use think\Model;
 
 class BisAccount extends Model{
+    //通过id获取数据库中的一行
     public function getAccountById($id)
     {
         $data =[
           'bis_id'=>$id
         ];
         return $this->where($data)->find();
+    }
+    //根据name获取数据库中的一行
+
+    public function getAccountByUsername($username)
+    {
+        $data =[
+            'username' =>$username
+        ];
+
+        return $this->where($data)->find();
+
     }
 
 

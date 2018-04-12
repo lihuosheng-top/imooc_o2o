@@ -75,7 +75,7 @@ class Bis extends Controller{
         //获取一级分类
         $categories = model('Category')->getFirstNormalCategories();
 
-        dump($categories);
+//        dump($categories);
 
         //获取citi_path里面的二级城市分类
         $city_path =$bis['city_path'];

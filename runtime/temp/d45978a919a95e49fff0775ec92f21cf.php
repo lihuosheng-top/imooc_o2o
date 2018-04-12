@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:80:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\index\index.html";i:1505305960;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\header.html";i:1505305960;s:80:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\menu.html";i:1505305960;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\footer.html";i:1505305960;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:80:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\index\index.html";i:1523515938;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\header.html";i:1505305960;s:80:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\menu.html";i:1505305960;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\footer.html";i:1505305960;}*/ ?>
 <!--包含头部文件-->
 <!DOCTYPE HTML>
 <html>
@@ -36,11 +36,11 @@
 			
 			<nav id="Hui-userbar" class="nav navbar-nav navbar-userbar hidden-xs">
 				<ul class="cl">
-					<li>管理员</li>
+					<li><?php echo session('bis_account.username'); ?></li>
 					<li class="dropDown dropDown_hover"><a href="#" class="dropDown_A"> <i class="Hui-iconfont">&#xe6d5;</i></a>
 						<ul class="dropDown-menu menu radius box-shadow">
 							<!--<li><a href="#">个人信息</a></li>-->
-							<li><a href="">退出</a></li>
+							<li><a href="<?php echo url('login/loginout'); ?>">退出</a></li>
 						</ul>
 					</li>
 					

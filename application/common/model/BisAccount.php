@@ -15,7 +15,8 @@ class BisAccount extends Model{
         $data =[
           'bis_id'=>$id
         ];
-        return $this->where($data)->find();
+
+        return  $this->where($data)->find();
     }
     //根据name获取数据库中的一行
 

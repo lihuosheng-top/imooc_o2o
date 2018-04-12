@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:80:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\login\index.html";i:1505305960;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\header.html";i:1505305960;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\footer.html";i:1505305960;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:80:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\login\index.html";i:1523511658;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\header.html";i:1505305960;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\footer.html";i:1505305960;}*/ ?>
 <!--包含头部文件-->
 <!DOCTYPE HTML>
 <html>
@@ -36,7 +36,7 @@
 
   <div id="loginform" class="loginBox">
 
-    <form class="form form-horizontal" action="" method="post">
+    <form class="form form-horizontal" action="<?php echo url('login/index'); ?>" method="post">
       <div class="row cl">
         <label class="form-label col-xs-3"><i class="Hui-iconfont">&#xe60d;</i></label>
         <div class="formControls col-xs-8">

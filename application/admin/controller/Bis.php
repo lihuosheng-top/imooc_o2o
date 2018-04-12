@@ -74,6 +74,9 @@ class Bis extends Controller{
         $se_cities = model('City')->getNormalCitiesByParentId(intval($bis['city_id']));
         //获取一级分类
         $categories = model('Category')->getFirstNormalCategories();
+
+        dump($categories);
+
         //获取citi_path里面的二级城市分类
         $city_path =$bis['city_path'];
         $se_city_id = $this->getSeCityIdByCityPath($city_path);

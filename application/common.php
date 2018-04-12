@@ -80,3 +80,53 @@ function getCityNameByCityId($city_id)
     return $city->name;
 
 }
+
+//根据category_path处理二级分类信息
+function getCategoryDetailByPath($category_path)
+{
+    if(empty($category_path))
+    {
+        return '';
+    }
+    if(preg_match('/,/',$category_path))
+    {
+        //先按照，号切割字符床（temp临时的，中间量的）
+        $tempArray = explode(',',$category_path);
+        //'5,10 |12|14'=>['5','10|12|14']
+
+        $categoryID =$tempArray[0];
+        $tempString =$tempArray[1];
+
+        //按照分割形成数组
+
+        $temp_se_arr =explode('|',$tempString);
+
+        //[10,12,14]5分支下共有10,12,14,16,18
+        $allCategories =model('Category')->getAllFirstNormalCategories(intval($categoryID));
+        //循环组合形成input标签字符串
+        $htmlString ='';
+        //遍历
+
+        for($e=0;$e<count($allCategories);$e++)
+        {
+            $current = $allCategories[$e];
+            //循环匹配temp_se_arr
+            for($j=0;$j<count($temp_se_arr);$j++)
+            {
+                $se_current =$temp_se_arr[$j];
+                //判断当前current_id的是否存在em_se_arr中
+                if(in_array($current['id'],$temp_se_arr))
+                {
+                    $htmlString .="<input type='checkbox' value='".$current['id']."' checked>";
+                    $htmlString .="<label>".$current['name']."</label>";
+                }
+            }
+
+        }
+        return $htmlString;
+    }
+    else{
+        return '';
+    }
+
+}

@@ -13,7 +13,7 @@ class Category extends Model
 //    自动写入时间戳字段
     protected $autoWriteTimestamp = true;
 
-//获取分类（分页）
+//获取分类（分页）注意分页里面不能写对应的（一页放5个，否则一级分类获取不成功）
 public function getFirstNormalCategories($parent_id = 0)
 {
     //条件：
@@ -27,7 +27,7 @@ public function getFirstNormalCategories($parent_id = 0)
         'listorder' => 'desc',
         'id'=>'desc',
     ];
-    return $this->where($data)->order($order)->paginate(5);
+    return $this->where($data)->order($order)->paginate();
 }
 
 //获取所有分类栏目（不分页处理）

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:80:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\index\index.html";i:1523515938;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\header.html";i:1505305960;s:80:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\menu.html";i:1505305960;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\footer.html";i:1505305960;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:80:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\index\index.html";i:1523515938;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\header.html";i:1505305960;s:80:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\menu.html";i:1523588915;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\footer.html";i:1505305960;}*/ ?>
 <!--包含头部文件-->
 <!DOCTYPE HTML>
 <html>
@@ -68,8 +68,8 @@
 			<dt><i class="Hui-iconfont">&#xe616;</i> 门店管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 			<dd>
 				<ul>
-				    <li><a _href="" data-title="新增门店" href="javascript:void(0)">新增门店</a></li>
-					<li><a _href="" data-title="门店列表" href="javascript:void(0)">门店列表</a></li>
+				    <li><a _href="<?php echo url('bis/Location/add'); ?>" data-title="新增门店" href="javascript:void(0)">新增门店</a></li>
+					<li><a _href="<?php echo url('bis/Location/index'); ?>" data-title="门店列表" href="javascript:void(0)">门店列表</a></li>
 				</ul>
 			</dd>
 		</dl>

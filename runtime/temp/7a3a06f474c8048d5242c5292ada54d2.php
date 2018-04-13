@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:83:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\register\index.html";i:1523581613;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\header.html";i:1505305960;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\footer.html";i:1505305960;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:83:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\register\index.html";i:1523582071;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\header.html";i:1505305960;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\footer.html";i:1505305960;}*/ ?>
 <!--包含头部文件-->
 <!DOCTYPE HTML>
 <html>
@@ -219,7 +219,7 @@ $(function(){
 });
 var SCOPE={
     'city_second_url':"<?php echo url('register/getCategory'); ?>",
-    'uploadify_swf_url':"__STATIC__/admin/uploadify/uploadify.swf",
+    'uploadify_swf_url':"__PBULIC__/admin/uploadify/uploadify.swf",
     'upload_image_url':"<?php echo url('api/image/upload'); ?>",
     'category_second_url':"<?php echo url('register/getCategories'); ?>"
 }

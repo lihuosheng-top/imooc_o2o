@@ -130,3 +130,16 @@ function getCategoryDetailByPath($category_path)
     }
 
 }
+
+//根據is_main判斷是屬於分店還是總店
+
+function checkMain($status)
+{
+    if($status == 1)
+    {
+        return "<label class='label label-success radius'>总店</label>";
+    }else if($status == 0)
+    {
+        return "<label class='label label-secondary radius'>分店</label>";
+    }
+}

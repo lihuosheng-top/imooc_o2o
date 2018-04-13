@@ -30,6 +30,17 @@ class BisAccount extends Model{
 
     }
 
+    //
+    public function add($data)
+    {
+        $data['status'] =0;
+
+        $this ->save($data);
+        //获取添加成功后的主键id
+        return $this->id;
+
+
+    }
 
 
 }

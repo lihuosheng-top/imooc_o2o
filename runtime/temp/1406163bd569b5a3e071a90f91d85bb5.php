@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:79:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\deal\index.html";i:1505305960;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\header.html";i:1505305960;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\footer.html";i:1505305960;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:79:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\deal\index.html";i:1524021968;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\header.html";i:1505305960;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\footer.html";i:1505305960;}*/ ?>
 <!--包含头部文件-->
 <!DOCTYPE HTML>
 <html>
@@ -47,15 +47,17 @@
 				</tr>
 			</thead>
 			<tbody>
-				
+
+			<?php if(is_array($deals) || $deals instanceof \think\Collection || $deals instanceof \think\Paginator): $i = 0; $__LIST__ = $deals;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
 				<tr class="text-c">
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td class="td-status"></td>
+					<td><?php echo $vo['id']; ?></td>
+					<td><?php echo $vo['name']; ?></td>
+					<td><?php echo $vo['create_time']; ?></td>
+					<td><?php echo date('Y-m-d H:i',$vo['start_time']); ?>-<?php echo date("Y-m-d H:i",$vo['end_time']); ?></td>
+					<td class="td-status"><?php echo status($vo['status']); ?></td>
 					<td class="td-manage"><a style="text-decoration:none" class="ml-5" onClick="" href="javascript:;" title="查看"><i class="Hui-iconfont">&#xe6df;</i></a> <a style="text-decoration:none" class="ml-5" onClick="" href="javascript:;" title="下架"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
 				</tr>
+			<?php endforeach; endif; else: echo "" ;endif; ?>
 				
 			</tbody>
 		</table>

@@ -25,8 +25,8 @@ class Register extends Controller{
     }
 
 
-    //TODO：所属大分类
-    public function getCategory()
+    //TODO：所属二级城市
+    public function getCity()
     {
         //input 获取输入数据，支持默认值，过滤
         $parent_id =input('post.id',0,'intval');
@@ -63,6 +63,10 @@ class Register extends Controller{
         }
         return $this->result($res,1,'获取成功');
     }
+
+
+
+
 
     //TODO:申请按钮触发
     public function regist()

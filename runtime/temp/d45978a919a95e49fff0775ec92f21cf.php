@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:80:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\index\index.html";i:1523515938;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\header.html";i:1505305960;s:80:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\menu.html";i:1524019824;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\footer.html";i:1505305960;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:80:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\index\index.html";i:1523515938;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\header.html";i:1505305960;s:80:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\menu.html";i:1524022194;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\footer.html";i:1505305960;}*/ ?>
 <!--包含头部文件-->
 <!DOCTYPE HTML>
 <html>
@@ -79,7 +79,7 @@
 			<dd>
 				<ul>
 					<li><a _href="<?php echo url('bis/deal/index'); ?>" data-title="团购列表" href="javascript:void(0)">团购列表</a></li>
-					<li><a _href="" data-title="团购商品添加" href="javascript:void(0)">团购商品添加</a></li>
+					<li><a _href="<?php echo url('bis/deal/add'); ?>" data-title="团购商品添加" href="javascript:void(0)">团购商品添加</a></li>
 					
 				</ul>
 			</dd>

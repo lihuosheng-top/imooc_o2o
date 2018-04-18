@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:81:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\location\add.html";i:1524036938;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\header.html";i:1505305960;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\footer.html";i:1505305960;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:77:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\deal\add.html";i:1524037738;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\header.html";i:1505305960;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\footer.html";i:1505305960;}*/ ?>
 <!--包含头部文件-->
 <!DOCTYPE HTML>
 <html>
@@ -30,12 +30,12 @@
 <meta name="keywords" content="tp5打造o2o平台系统">
 <meta name="description" content="o2o平台">
 </head>
-<div class="cl pd-5 bg-1 bk-gray mt-20"> 添加分店信息</div>
+<div class="cl pd-5 bg-1 bk-gray mt-20"> 添加团购商品信息</div>
 <article class="page-container">
-	<form class="form form-horizontal" id="form-article-add" method="post" action="<?php echo url('bis/Location/add'); ?>">
+	<form class="form form-horizontal" id="form-article-add" method="post" action="<?php echo url('/bisdeal/add'); ?>">
 	基本信息：
 		<div class="row cl">
-			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>分店名称：</label>
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>团购名称：</label>
 			<div class="formControls col-xs-8 col-sm-3">
 				<input type="text" class="input-text" value="" placeholder="" id="" name="name">
 			</div>
@@ -50,44 +50,27 @@
 					<?php if(is_array($cities) || $cities instanceof \think\Collection || $cities instanceof \think\Paginator): $i = 0; $__LIST__ = $cities;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
 					<option value="<?php echo $vo['id']; ?>"><?php echo $vo['name']; ?></option>
 					<?php endforeach; endif; else: echo "" ;endif; ?>
-
 				</select>
 				</span>
 			</div>
 			<div class="formControls col-xs-8 col-sm-2">
 				<span class="select-box">
-				<select name="se_city_id" class="select se_city_id">
+				<select name="city_id" class="select se_city_id">
 					<option value="0">--请选择--</option>
 				</select>
 				</span> 
 			</div>
 		</div>
-	
-		<div class="row cl">
-              <label class="form-label col-xs-4 col-sm-2">缩略图：</label>
-              <div class="formControls col-xs-8 col-sm-9">
-                <input id="file_upload"  type="file" multiple="true" >
-                <img style="display: none" id="upload_org_code_img" src="" width="150" height="150">
-                <input id="file_upload_image" name="logo" type="hidden" multiple="true" value="">
-              </div>
-        </div>
-		<div class="row cl">
-			<label class="form-label col-xs-4 col-sm-2">门店介绍：</label>
-			<div class="formControls col-xs-8 col-sm-9">
-				<script id="editor"  type="text/plain" name="content" style="width:80%;height:300px;">
-				</script>
-			</div>
-		</div>
-		
+
 		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>所属分类：</label>
-			<div class="formControls col-xs-8 col-sm-3">
-				<span class="select-box">
+			<div class="formControls col-xs-8 col-sm-3"> <span class="select-box">
 				<select name="category_id" class="select categoryId">
 					<option value="0">--请选择--</option>
 					<?php if(is_array($categories) || $categories instanceof \think\Collection || $categories instanceof \think\Paginator): $i = 0; $__LIST__ = $categories;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
 					<option value="<?php echo $vo['id']; ?>"><?php echo $vo['name']; ?></option>
 					<?php endforeach; endif; else: echo "" ;endif; ?>
+
 				</select>
 				</span>
 			</div>
@@ -99,28 +82,84 @@
 				</div>
 			</div>
 		</div>
+
 		<div class="row cl">
-			<label class="form-label col-xs-4 col-sm-2">地址：</label>
+			<label class="form-label col-xs-9 col-sm-2">支持门店：</label>
+			<div class="formControls col-xs-8 col-sm-9 skin-minimal">
+				<div class="check-box">
+				<?php if(is_array($locations) || $locations instanceof \think\Collection || $locations instanceof \think\Paginator): $i = 0; $__LIST__ = $locations;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
+				<input name="location_ids[]" type="checkbox" id="checkbox" value=""/>
+					<label for=""><?php echo $vo['name']; ?></label>
+					<?php endforeach; endif; else: echo "" ;endif; ?>
+				</div>
+			</div>
+		</div>
+	
+		<div class="row cl">
+              <label class="form-label col-xs-4 col-sm-2">缩略图：</label>
+              <div class="formControls col-xs-8 col-sm-9">
+                <input id="file_upload"  type="file" multiple="true" >
+                <img style="display: none" id="upload_org_code_img" src="" width="150" height="150">
+                <input id="file_upload_image" name="image" type="hidden" multiple="true" value="">
+              </div>
+        </div>
+        <div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">团购开始时间：</label>
 			<div class="formControls col-xs-8 col-sm-3">
-				<input type="text" class="input-text" value="" placeholder="" id="" name="address">
+				
+				<input type="text" name="start_time" class="input-text" id="countTimestart" onfocus="selecttime(1)" value=""  > 
+
 			</div>
 		</div>
 		<div class="row cl">
-			<label class="form-label col-xs-4 col-sm-2">电话:</label>
+			<label class="form-label col-xs-4 col-sm-2">团购结束时间:</label>
 			<div class="formControls col-xs-8 col-sm-3">
-				<input type="text" class="input-text" value="" placeholder="" id="" name="tel">
+				
+				<input type="text" name="end_time" class="input-text" id="countTimestart" onfocus="selecttime(1)" value=""  >
 			</div>
 		</div>
 		<div class="row cl">
-			<label class="form-label col-xs-4 col-sm-2">联系人:</label>
+			<label class="form-label col-xs-4 col-sm-2">库存数:</label>
 			<div class="formControls col-xs-8 col-sm-3">
-				<input type="text" class="input-text" value="" placeholder="" id="" name="contact">
+				<input type="text" class="input-text" value="" placeholder="" id="" name="total_count">
 			</div>
 		</div>
 		<div class="row cl">
-			<label class="form-label col-xs-4 col-sm-2">营业时间:</label>
+			<label class="form-label col-xs-4 col-sm-2">原价:</label>
 			<div class="formControls col-xs-8 col-sm-3">
-				<input type="text" class="input-text" value="" placeholder="" id="" name="open_time">
+				<input type="text" class="input-text" value="" placeholder="" id="" name="origin_price">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">团购价:</label>
+			<div class="formControls col-xs-8 col-sm-3">
+				<input type="text" class="input-text" value="" placeholder="" id="" name="current_price">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">消费券生效时间：</label>
+			<div class="formControls col-xs-8 col-sm-3">
+				
+				<input type="text" name="coupons_begin_time" class="input-text" id="countTimestart" onfocus="selecttime(1)" value=""  >
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">消费券结束时间:</label>
+			<div class="formControls col-xs-8 col-sm-3">
+				
+				<input type="text" name="coupons_end_time" class="input-text" id="countTimestart" onfocus="selecttime(1)" value=""  >
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">团购描述：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<script id="editor"  type="text/plain" name="description" style="width:80%;height:300px;"></script> 
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">购买须知：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<script id="editor2"  type="text/plain" name="notes" style="width:80%;height:300px;"></script> 
 			</div>
 		</div>
 		
@@ -131,6 +170,8 @@
 		</div>
 	</form>
 </article>
+
+<!--包含头部文件-->
 <script type="text/javascript" src="__STATIC__/admin/hui/lib/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript" src="__STATIC__/admin/hui/lib/layer/2.1/layer.js"></script> 
 <script type="text/javascript" src="__STATIC__/admin/hui/lib/My97DatePicker/WdatePicker.js"></script> 
@@ -144,18 +185,27 @@
 <script type="text/javascript" src="__STATIC__/admin/hui/lib/ueditor/1.4.3/ueditor.config.js"></script>
 <script type="text/javascript" src="__STATIC__/admin/hui/lib/ueditor/1.4.3/ueditor.all.min.js"> </script>
 <script type="text/javascript" src="__STATIC__/admin/hui/lib/ueditor/1.4.3/lang/zh-cn/zh-cn.js"></script>
-<script>
- var SCOPE = {
-    
-     'uploadify_swf_url':"__PBULIC__/admin/uploadify/uploadify.swf",
-     'upload_image_url':"<?php echo url('api/image/upload'); ?>",
-     'category_second_url':"<?php echo url('bis/register/getCategories'); ?>"
- };
-</script>
+<script src="__STATIC__/admin/hui/lib/My97DatePicker/WdatePicker.js"></script>
 <script>
 $(function(){
 	var ue = UE.getEditor('editor');
+	var ue = UE.getEditor('editor2');
 });
+</script>
+
+<script>
+    var SCOPE = {
+    //     "city_url" : "<?php echo url('api/city/getCitysByParentId'); ?>",
+    //     "category_url" : "<?php echo url('api/category/getCategoryByParentId'); ?>",
+    //     "uploadify_swf" : "__STATIC__/admin/uploadify/uploadify.swf",
+    //     "image_upload" : "<?php echo url('api/image/upload'); ?>",
+        'city_second_url':"<?php echo url('bis/register/getCity'); ?>",
+        'uploadify_swf_url':"__PBULIC__/admin/uploadify/uploadify.swf",
+        'upload_image_url':"<?php echo url('api/image/upload'); ?>",
+        'category_second_url':"<?php echo url('bis/register/getCategories'); ?>"
+
+
+    };
 </script>
 </body>
 </html>

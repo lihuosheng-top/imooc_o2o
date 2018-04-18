@@ -3344,3 +3344,35 @@
 [ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `bis_id` = 32 LIMIT 0,3 [ RunTime:0.002060s ]
 
 ---------------------------------------------------------------
+[ 2018-04-13T12:01:09+08:00 ] ::1 ::1 GET /imooc_o2o/public/index.php/bis/location/add.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/bis/location/add.html [运行时间：0.103284s][吞吐率：9.68req/s] [内存消耗：3,764.75kb] [文件加载：47]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/bis/index/index.html',
+  'cookie' => 'PHPSESSID=8kvjmrl1dqotue3h4mumj5dg41',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\bis\controller\Location->add[ G:\php\Apache24\htdocs\imooc_o2o\application\bis\controller\Location.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\location\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

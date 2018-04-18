@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:81:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\location\add.html";i:1523589153;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\header.html";i:1505305960;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\footer.html";i:1505305960;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:81:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\location\add.html";i:1523589192;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\header.html";i:1505305960;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\footer.html";i:1505305960;}*/ ?>
 <!--包含头部文件-->
 <!DOCTYPE HTML>
 <html>
@@ -80,7 +80,7 @@
 			<div class="formControls col-xs-8 col-sm-3"> <span class="select-box">
 				<select name="category_id" class="select categoryId">
 					<option value="0">--请选择--</option>
-					
+
 				</select>
 				</span>
 			</div>

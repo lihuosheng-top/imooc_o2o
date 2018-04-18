@@ -1,0 +1,444 @@
+[ 2018-04-18T10:17:45+08:00 ] 127.0.0.1 127.0.0.1 GET /imooc_o2o/public/index.php/bis/index/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/bis/index/index.html [运行时间：0.150132s][吞吐率：6.66req/s] [内存消耗：2,097.34kb] [文件加载：38]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=dg7g4oh923bhatbhmuvhpbho15',
+  'connection' => 'close',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-18T10:17:45+08:00 ] 127.0.0.1 127.0.0.1 GET /imooc_o2o/public/index.php/bis/login/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/bis/login/index.html [运行时间：0.065751s][吞吐率：15.21req/s] [内存消耗：2,066.06kb] [文件加载：36]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=dg7g4oh923bhatbhmuvhpbho15',
+  'connection' => 'close',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ G:\php\Apache24\htdocs\imooc_o2o\application\bis\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-18T10:21:12+08:00 ] 127.0.0.1 127.0.0.1 GET /imooc_o2o/public/index.php/bis/login/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/bis/login/index.html [运行时间：0.053753s][吞吐率：18.60req/s] [内存消耗：2,066.06kb] [文件加载：36]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=dg7g4oh923bhatbhmuvhpbho15',
+  'connection' => 'close',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ G:\php\Apache24\htdocs\imooc_o2o\application\bis\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-18T10:21:17+08:00 ] 127.0.0.1 127.0.0.1 GET /imooc_o2o/public/index.php/bis/login/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/bis/login/index.html [运行时间：0.097767s][吞吐率：10.23req/s] [内存消耗：2,066.06kb] [文件加载：36]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=dg7g4oh923bhatbhmuvhpbho15',
+  'connection' => 'close',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ G:\php\Apache24\htdocs\imooc_o2o\application\bis\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-18T10:47:55+08:00 ] 127.0.0.1 127.0.0.1 POST /imooc_o2o/public/index.php/bis/login/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/bis/login/index.html [运行时间：0.379173s][吞吐率：2.64req/s] [内存消耗：3,907.44kb] [文件加载：48]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/bis/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '29',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=dg7g4oh923bhatbhmuvhpbho15',
+  'connection' => 'close',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ G:\php\Apache24\htdocs\imooc_o2o\application\bis\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.033968s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.105056s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.011830s ]
+
+---------------------------------------------------------------
+[ 2018-04-18T10:47:58+08:00 ] 127.0.0.1 127.0.0.1 GET /imooc_o2o/public/index.php/bis/index/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/bis/index/index.html [运行时间：0.107653s][吞吐率：9.29req/s] [内存消耗：2,505.13kb] [文件加载：39]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/bis/login/index.html',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=dg7g4oh923bhatbhmuvhpbho15',
+  'connection' => 'close',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->index[ G:\php\Apache24\htdocs\imooc_o2o\application\bis\controller\Index.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-18T10:48:01+08:00 ] 127.0.0.1 127.0.0.1 GET /imooc_o2o/public/index.php/bis/location/add.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/bis/location/add.html [运行时间：0.142786s][吞吐率：7.00req/s] [内存消耗：3,539.38kb] [文件加载：45]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/bis/index/index.html',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=dg7g4oh923bhatbhmuvhpbho15',
+  'connection' => 'close',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\bis\controller\Location->add[ G:\php\Apache24\htdocs\imooc_o2o\application\bis\controller\Location.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\location\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-18T10:48:03+08:00 ] 127.0.0.1 127.0.0.1 GET /imooc_o2o/public/index.php/bis/location/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/bis/location/index.html [运行时间：0.296203s][吞吐率：3.38req/s] [内存消耗：3,870.89kb] [文件加载：50]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'location',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/bis/index/index.html',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=dg7g4oh923bhatbhmuvhpbho15',
+  'connection' => 'close',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\bis\controller\Location->index[ G:\php\Apache24\htdocs\imooc_o2o\application\bis\controller\Location.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\location\index.html [ array (
+  0 => 'location',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001004s ] mysql:dbname=imooc_o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.150947s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis_location` WHERE  `bis_id` = 32 LIMIT 1 [ RunTime:0.000980s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `bis_id` = 32 LIMIT 0,3 [ RunTime:0.000926s ]
+
+---------------------------------------------------------------
+[ 2018-04-18T10:50:26+08:00 ] 127.0.0.1 127.0.0.1 GET /imooc_o2o/public/index.php/bis/index/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/bis/index/index.html [运行时间：0.128491s][吞吐率：7.78req/s] [内存消耗：2,728.52kb] [文件加载：41]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=dg7g4oh923bhatbhmuvhpbho15',
+  'connection' => 'close',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->index[ G:\php\Apache24\htdocs\imooc_o2o\application\bis\controller\Index.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-18T10:50:28+08:00 ] 127.0.0.1 127.0.0.1 GET /imooc_o2o/public/index.php/bis/deal/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/bis/deal/index.html [运行时间：0.149356s][吞吐率：6.70req/s] [内存消耗：1,588.61kb] [文件加载：30]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/bis/index/index.html',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=dg7g4oh923bhatbhmuvhpbho15',
+  'connection' => 'close',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-18T10:53:26+08:00 ] 127.0.0.1 127.0.0.1 GET /imooc_o2o/public/index.php/bis/index/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/bis/index/index.html [运行时间：0.063750s][吞吐率：15.69req/s] [内存消耗：2,504.86kb] [文件加载：39]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=dg7g4oh923bhatbhmuvhpbho15',
+  'connection' => 'close',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->index[ G:\php\Apache24\htdocs\imooc_o2o\application\bis\controller\Index.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-04-18T10:53:28+08:00 ] 127.0.0.1 127.0.0.1 GET /imooc_o2o/public/index.php/bis/deal/index.html
+[ log ] localhost:8080/imooc_o2o/public/index.php/bis/deal/index.html [运行时间：0.112225s][吞吐率：8.91req/s] [内存消耗：3,664.98kb] [文件加载：46]
+[ info ] [ LANG ] G:\php\Apache24\htdocs\imooc_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/imooc_o2o/public/index.php/bis/index/index.html',
+  'cookie' => 'Phpstorm-412f56be=3074bb5d-31ac-4ec9-8a21-a4a32a2682a8; PHPSESSID=dg7g4oh923bhatbhmuvhpbho15',
+  'connection' => 'close',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\bis\controller\Deal->index[ G:\php\Apache24\htdocs\imooc_o2o\application\bis\controller\Deal.php ]
+[ info ] [ VIEW ] G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\deal\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

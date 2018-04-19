@@ -38,7 +38,7 @@ class  Deal extends Base{
         if(request()->isPost())
         {
                 $data =input('post.');
-                dump($data['se_category_id']);
+//                dump($data['se_category_id']);
 
             //准备分类信息字符串，提供给category_path字段使用
             $se_categories_string ='';
@@ -53,8 +53,8 @@ class  Deal extends Base{
                 //拼接二级栏目的分类，加上主栏目
                 $se_categories_string = $data['category_id'].','.$se_single_categories_string;
             }
-                dump('二级'.$se_single_categories_string);
-                dump('二级加'.$se_categories_string);
+//                dump('二级'.$se_single_categories_string);
+//                dump('二级加'.$se_categories_string);
 
                 //准备勾选了那些分店信息的数据
             $locationId_string = '';

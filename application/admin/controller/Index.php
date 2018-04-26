@@ -2,6 +2,7 @@
 namespace app\admin\controller;
 use think\Controller;
 use my\Test;
+use Map;
 class Index extends Controller
 {
     public function index()
@@ -24,8 +25,11 @@ class Index extends Controller
 
     public function map()
     {
-        $data =\Map::staticImage('重庆市沙坪坝大学城');
-        return $data;
+//        $data =new Map();
+//        return $data->staticImage('重庆市沙坪坝大学城');
+
+        return \Map::staticImage('重庆市沙坪坝大学城');
+
     }
 
 }

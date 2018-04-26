@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:80:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\login\index.html";i:1523520600;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\header.html";i:1524560617;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\footer.html";i:1505305960;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:83:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\location\index.html";i:1523590658;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\header.html";i:1524560617;s:82:"G:\php\Apache24\htdocs\imooc_o2o\public/../application/bis\view\public\footer.html";i:1505305960;}*/ ?>
 <!--包含头部文件-->
 <!DOCTYPE HTML>
 <html>
@@ -31,41 +31,41 @@
 <meta name="keywords" content="tp5打造o2o平台系统">
 <meta name="description" content="o2o平台">
 </head>
-<input type="hidden" id="TenantId" name="TenantId" value="" />
-<div class="header"><h1 style="text-align:center">商户登录系统</h1></div>
-<div class="loginWraper">
-
-  <div id="loginform" class="loginBox">
-
-    <form class="form form-horizontal" action="<?php echo url('login/index'); ?>" method="post">
-      <div class="row cl">
-        <label class="form-label col-xs-3"><i class="Hui-iconfont">&#xe60d;</i></label>
-        <div class="formControls col-xs-8">
-          <input id="" name="username" type="text" placeholder="账户" class="input-text size-L">
-        </div>
-      </div>
-      <div class="row cl">
-        <label class="form-label col-xs-3"><i class="Hui-iconfont">&#xe60e;</i></label>
-        <div class="formControls col-xs-8">
-          <input id="" name="password" type="password" placeholder="密码" class="input-text size-L">
-        </div>
-      </div>
-      
-      
-      <div class="row cl">
-
-        <div class="formControls col-xs-8 col-xs-offset-3">
-
-          <input name="" type="submit" class="btn btn-success radius size-L" value="&nbsp;登&nbsp;&nbsp;&nbsp;&nbsp;录&nbsp;">
-          <input name="" type="reset" class="btn btn-default radius size-L" value="&nbsp;取&nbsp;&nbsp;&nbsp;&nbsp;消&nbsp;">
-          <a href="<?php echo url('register/index'); ?>"><input name="" type="" class="btn btn-success radius size-L" value="&nbsp;申请&nbsp;&nbsp;&nbsp;&nbsp;入驻&nbsp;"></a>
-        </div>
-      </div>
-    </form>
-  </div>
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 商户入驻申请 </nav>
+<div class="page-container">
+<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"> <a class="btn btn-primary radius"  href="<?php echo url('location/add'); ?>"><i class="Hui-iconfont">&#xe600;</i> 添加分店</a></span> <span class="r"></span> </div>
+	<div class="mt-20">
+		<table class="table table-border table-bordered table-bg table-hover table-sort">
+			<thead>
+				<tr class="text-c">
+					<th width="80">ID</th>
+					<th width="100">名称</th>
+					<th width="60">申请时间</th>
+					<th width="60">是否为总店</th>
+					<th width="60">状态</th>
+					<th width="100">操作</th>
+				</tr>
+			</thead>
+			<tbody>
+				<?php if(is_array($location) || $location instanceof \think\Collection || $location instanceof \think\Paginator): $i = 0; $__LIST__ = $location;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
+				<tr class="text-c">
+					<td><?php echo $vo['bis_id']; ?></td>
+					<td><?php echo $vo['name']; ?></td>
+					<td><?php echo $vo['create_time']; ?></td>
+					<td><?php echo checkMain($vo['is_main']); ?></td>
+					<td class="td-status"><?php echo status($vo['status']); ?></td>
+					<td class="td-manage">
+						<a style="text-decoration:none" class="ml-5" onClick="o2o_edit('编辑','<?php echo url('location/detail',['id'=>$vo['id']]); ?>')" href="javascript:;" title="查看"><i class="Hui-iconfont">&#xe6df;</i></a>
+						<a style="text-decoration:none" class="ml-5" onClick="o2o_del('<?php echo url('location/status',['id'=>$vo['id'],'status'=>-1]); ?>')" href="javascript:;" title="下架"><i class="Hui-iconfont">&#xe6e2;</i></a>
+					</td>
+				</tr>
+				<?php endforeach; endif; else: echo "" ;endif; ?>
+			</tbody>
+		</table>
+	</div>
 </div>
-<div class="footer">Copyright tp5打造本地生活服务系统</div>
-<!--包含尾部文件-->
+<!--包含头部文件-->
 <script type="text/javascript" src="__STATIC__/admin/hui/lib/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript" src="__STATIC__/admin/hui/lib/layer/2.1/layer.js"></script> 
 <script type="text/javascript" src="__STATIC__/admin/hui/lib/My97DatePicker/WdatePicker.js"></script> 
@@ -75,3 +75,4 @@
 <script type="text/javascript" src="__STATIC__/admin/hui/static/h-ui/js/H-ui.js"></script> 
 <script type="text/javascript" src="__STATIC__/admin/hui/static/h-ui.admin/js/H-ui.admin.js"></script>
 <script type="text/javascript" src="__STATIC__/admin/js/common.js"></script>
+

@@ -22,11 +22,12 @@ return [
     'staticImage'=>'staticimage/v2',//v2后面没有横线
     //百度地图应用 访问ak
     'ak'=>'rPsDCv32GlrrGg3iYMG3ZuNMj5QnajyR',
-    'width'=>300,
-    'height'=>200,
+    'width'=>400,
+    'height'=>300,
     'output'    => 'json',//返回数据为json格式
-
-
-
-
 ];
+
+
+
+
+
